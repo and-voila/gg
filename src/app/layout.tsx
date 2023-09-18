@@ -14,10 +14,12 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full bg-neutral-950 text-base antialiased">
+    <html lang="en" className="h-full text-base antialiased">
       <body className="flex min-h-full flex-col">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <RootLayout>{children}</RootLayout>
+          <RootLayout>
+            <main>{children}</main>
+          </RootLayout>
         </ThemeProvider>
       </body>
     </html>

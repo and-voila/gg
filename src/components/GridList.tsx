@@ -41,7 +41,7 @@ export function GridListItem({
       className={clsx(
         'text-base',
         invert
-          ? 'text-neutral-300 before:bg-white after:bg-white/10'
+          ? 'text-gray-200 before:bg-white after:bg-white/10'
           : 'text-neutral-600 before:bg-neutral-950 after:bg-neutral-100',
         className,
       )}
