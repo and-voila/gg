@@ -3,7 +3,7 @@ import '@/styles/tailwind.css';
 import { type Metadata } from 'next';
 
 import { RootLayout } from '@/components/RootLayout';
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
   title: {

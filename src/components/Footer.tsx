@@ -4,7 +4,8 @@ import { Container } from '@/components/Container';
 import { FadeIn } from '@/components/FadeIn';
 import { Logo } from '@/components/Logo';
 import { socialMediaProfiles } from '@/components/SocialMedia';
-import { ModeToggle } from './mode-toggle';
+
+import { ModeToggle } from './ModeToggle';
 
 const navigation = [
   {
