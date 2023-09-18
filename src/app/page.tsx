@@ -5,10 +5,12 @@ import Link from 'next/link';
 import { ContactSection } from '@/components/ContactSection';
 import { Container } from '@/components/Container';
 import { FadeIn, FadeInStagger } from '@/components/FadeIn';
+import { GridList, GridListItem } from '@/components/GridList';
 import { List, ListItem } from '@/components/List';
 import { SectionIntro } from '@/components/SectionIntro';
 import { StylizedImage } from '@/components/StylizedImage';
 import { Testimonial } from '@/components/Testimonial';
+import { Button } from '@/components/ui/button';
 import logoBrightPath from '@/images/clients/bright-path/logo-light.svg';
 import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg';
 import logoGreenLife from '@/images/clients/green-life/logo-light.svg';
@@ -32,15 +34,50 @@ const clients = [
   ['North Adventures', logoNorthAdventures],
 ];
 
+function HowItWorks() {
+  return (
+    <div className="bg-brand mt-24 rounded-4xl py-24 sm:mt-32 lg:mt-40 lg:py-32">
+      <SectionIntro
+        eyebrow="Premier marketing community"
+        title="Your pathway to excellence"
+        invert
+      >
+        <p>
+          Ignite your marketing potential with the Sizzle Squad, the hottest
+          digital marketing Discord server out there. Created by Rebekah Radice,
+          we offer instant access to premium marketing resources. We&apos;re
+          here to turn your marketing strategies into blazing successes. 🔥
+        </p>
+      </SectionIntro>
+      <Container className="mt-16">
+        <GridList>
+          <GridListItem title="Access to top experts" invert>
+            Unlock personalized Q/A sessions, weekly masterclasses, and 1:1
+            consultations with industry titans like Rebekah Radice.
+          </GridListItem>
+          <GridListItem title="Rocket fuel for results" invert>
+            Supercharge your SEO, social media, and overall marketing campaigns
+            with our exclusive arsenal of tools and insights.
+          </GridListItem>
+          <GridListItem title="Join a hot community" invert>
+            Get feedback, share wins, or even find your next gig. Collaborate,
+            network, and grow with marketers as fired-up as you.
+          </GridListItem>
+        </GridList>
+      </Container>
+    </div>
+  );
+}
+
 function Clients() {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+    <div className="bg-brand mt-24 rounded-4xl py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
             We’ve worked with hundreds of amazing people
           </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
+          <div className="h-px flex-auto bg-gray-800" />
         </FadeIn>
         <FadeInStagger faster>
           <ul
@@ -82,7 +119,7 @@ function CaseStudies({
         <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {caseStudies.map((caseStudy) => (
             <FadeIn key={caseStudy.href} className="flex">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-gray-950/5 transition hover:bg-gray-50 sm:p-8">
                 <h3>
                   <Link href={caseStudy.href}>
                     <span className="absolute inset-0 rounded-3xl" />
@@ -94,22 +131,22 @@ function CaseStudies({
                     />
                   </Link>
                 </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                <p className="mt-6 flex gap-x-2 text-sm text-gray-950">
                   <time
                     dateTime={caseStudy.date.split('-')[0]}
                     className="font-semibold"
                   >
                     {caseStudy.date.split('-')[0]}
                   </time>
-                  <span className="text-neutral-300" aria-hidden="true">
+                  <span className="text-gray-300" aria-hidden="true">
                     /
                   </span>
                   <span>Case study</span>
                 </p>
-                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
+                <p className="mt-6 font-display text-2xl font-semibold text-gray-950">
                   {caseStudy.title}
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-gray-600">
                   {caseStudy.description}
                 </p>
               </article>
@@ -184,16 +221,27 @@ export default async function Home() {
     <>
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
-          <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+          <h1 className="text-foreground font-display text-5xl font-medium tracking-tight [text-wrap:balance] sm:text-7xl">
+            Like having digital marketing superpowers
           </h1>
-          <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          <p className="text-muted-foreground mt-6 text-xl">
+            Secure your spot on the premium Discord server that&apos;s not your
+            typical community. We&apos;ll help you overcome your biggest
+            challenges, hit your goals, and skyrocket your performance. No
+            trolls, no fluff, just magic.
           </p>
+          <Button variant="brand" size="lg" className="mt-6">
+            <Link
+              href="#"
+              aria-label="Join the hottest discord server for digital marketers."
+            >
+              Join now
+            </Link>
+          </Button>
         </FadeIn>
       </Container>
+
+      <HowItWorks />
 
       <Clients />
 

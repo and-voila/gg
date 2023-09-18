@@ -36,12 +36,12 @@ export function GridPattern({
     Array<[x: number, y: number, key: number]>
   >([]);
   const staticBlocks = [
-    [1, 1],
-    [2, 2],
+    [3, 1],
     [4, 3],
-    [6, 2],
-    [7, 4],
     [5, 5],
+    [1, 2],
+    [5, 1],
+    [6, 6],
   ];
 
   useEffect(() => {
