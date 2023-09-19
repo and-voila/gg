@@ -11,49 +11,49 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    name: 'Limited club membership',
+    name: 'Founding membership',
     description:
-      "Be among the first 500 members with Early Access. More than just a number, you're a pioneer in a community that caters to your specific marketing challenges.",
+      'Secure your place among the first 500 to enter this exclusive community. Be a pathfinder in a world tailored to solve your marketing enigmas.',
   },
   {
-    name: 'Price lock guarantee',
+    name: 'Fixed membership rate',
     description:
-      'Lock in your membership at an unbeatable $7.99/month. In an industry where prices can skyrocket overnight, think of this as your forever rate.',
+      'Take advantage of our early bird rate at $7.99/month, shielded from future price hikes. It’s your lifetime ticket to value.',
   },
   {
-    name: 'Discord VIP status',
+    name: 'Unique Discord perks',
     description:
-      "Gain instant recognition with exclusive badges, emojis, and roles on our Discord server. It's the digital red carpet, and you're on it.",
+      'Stand out with special badges and roles in our Discord server. Think of it as your VIP pass to digital recognition.',
   },
   {
-    name: 'Squad development insider',
+    name: 'Insider influence',
     description:
-      "Witness and influence the evolution of Sizzle Squad. You're not just a member; you're a co-creator.",
+      'Participate in the growth of AndVoila.gg. Your ideas and feedback will help shape the community’s destiny.',
   },
   {
-    name: 'Early access to knowledge',
+    name: 'First-to-know privileges',
     description:
-      "Get invites to launch-only events, webinars, and masterclasses. When we know, you'll know—first.",
+      'Receive exclusive invites to launch events and masterclasses. Be in the know before the crowd.',
   },
   {
-    name: 'Behind-the-scenes & bloopers',
+    name: 'Behind-the-scenes glimpses',
     description:
-      "We'll pull back the curtain on our journey, including the comedic missteps along the way. We laugh, you learn.",
+      'Get an unfiltered view of our journey, including the inevitable hiccups. We make the mistakes so you don’t have to.',
   },
   {
-    name: 'Direct impact on features',
+    name: 'Active role in community growth',
     description:
-      'Your voice is amplified. Your feedback will shape the future of our community and its offerings.',
+      'Your insights will contribute directly to our evolving feature set and community offerings.',
   },
   {
-    name: 'Beta tester privileges',
+    name: 'Beta access',
     description:
-      'Before any tool or feature goes public, you’ll be our trusted tester. It’s VIP access to what’s next in digital marketing.',
+      'Test new tools and features before they hit the mainstream. Your feedback will refine our innovations.',
   },
   {
-    name: 'Exclusive access to resources',
+    name: 'Resource advantage',
     description:
-      "Start strong with our premium marketing templates and swipe files. It's like a head start, but better.",
+      'Begin your journey with a curated selection of premium marketing resources. A leg up, the magical way.',
   },
 ];
 
@@ -66,7 +66,7 @@ const CommunityEarlyAccess: FC = () => {
           heading="Get early access"
           level="h4"
           as="h2"
-          description="You'll get a full buffet of exclusive perks, from first dibs on new features to member-only masterclasses and a dash of behind-the-scenes hilarity."
+          description="You'll get a full range of exclusive perks. From first dibs on new features to member-only masterclasses and a dash of behind-the-scenes hilarity."
         />
         <FadeInStagger className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base text-muted-foreground sm:grid-cols-2 lg:gap-y-16">
           {features.map((feature) => (

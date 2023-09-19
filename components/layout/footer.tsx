@@ -106,8 +106,8 @@ const Footer: React.FC = async () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-12">
           <div className="space-y-8">
             <Link href="/" aria-label="Home">
-              <Logomark className="h-10 sm:hidden" />
-              <Logo className="hidden h-10 sm:block" fillOnHover />
+              <Logomark className="h-16 sm:hidden" />
+              <Logo className="hidden h-16 sm:block" fillOnHover />
             </Link>
             <p className="text-base leading-6 text-muted-foreground">
               Helping marketers light up their performance with fun, fast, and
@@ -222,7 +222,7 @@ const Footer: React.FC = async () => {
               href="https://bril.la"
               target="_blank"
               rel="noopener"
-              className="font-medium hover:underline hover:underline-offset-4"
+              className="font-medium text-brand hover:underline hover:underline-offset-4"
             >
               {' '}
               BRIL.LA

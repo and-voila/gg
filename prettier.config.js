@@ -9,6 +9,6 @@ module.exports = {
   arrowParens: 'always',
   endOfLine: 'lf',
   tailwindFunctions: ['cn', 'clsx'],
-  tailwindConfig: './tailwind.config.ts',
+  tailwindConfig: './tailwind.config.js',
   plugins: ['prettier-plugin-tailwindcss'],
 };

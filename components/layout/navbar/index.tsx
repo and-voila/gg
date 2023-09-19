@@ -24,9 +24,9 @@ export default async function Navbar() {
             aria-label="Home"
             className="mr-2 flex w-full items-center justify-center md:w-auto lg:mr-6"
           >
-            <Logomark className="h-8 sm:hidden" />
+            <Logomark className="h-10 sm:hidden" />
             <Logo
-              className="ml-2 hidden h-8 flex-none pb-2 font-display text-lg sm:block md:hidden lg:block"
+              className="ml-2 hidden h-10 flex-none pb-2 font-display text-lg sm:block md:hidden lg:block"
               fillOnHover
             />
           </Link>

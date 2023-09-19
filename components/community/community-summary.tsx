@@ -12,34 +12,34 @@ type Feature = {
 
 const features: Feature[] = [
   {
-    name: 'Blazing-fast networking',
+    name: 'Immediate insights',
     description:
-      "Stuck in the digital marketing maze? Get immediate access to pros who’ve solved the puzzles you're wrestling with.",
+      "Lost in the labyrinth of digital marketing? Gain immediate access to mavens who’ve deciphered the enigmas you're facing.",
   },
   {
-    name: 'A melting pot of expertise',
+    name: 'Curated expertise',
     description:
-      'Join a selective community that cuts through the noise. We’re all about quality insights, not quantity of posts.',
+      'Be part of an exclusive circle that values wisdom over chatter. We prioritize quality insights, not post counts.',
   },
   {
     name: 'Metrics that matter',
     description:
-      'Quit the guesswork. We provide you with actionable metrics and KPIs that align with your marketing objectives, boosting your ROI and productivity.',
+      'Quit navigating by the stars. We provide actionable metrics and KPIs that align with your marketing goals, enhancing your ROI and efficiency.',
   },
   {
-    name: 'AI Unveiled',
+    name: 'AI deconstructed',
     description:
-      'Demystify AI’s role in digital marketing. We turn the jargon into actionable advice that you can implement right away.',
+      'Understand the role of AI in your digital marketing journey. We translate the arcane into advice you can act upon immediately.',
   },
   {
-    name: 'Blow-by-blow updates',
+    name: 'Real-time revelations',
     description:
-      'Stay ahead with real-time digests that distill the latest tools, techniques, and shifts in the digital marketing world.',
+      'Stay ahead with timely digests that distill the latest magical tools, techniques, and paradigm shifts in the digital marketing universe.',
   },
   {
-    name: 'Love from the community',
+    name: 'Community compassion',
     description:
-      'Your marketing challenges won’t fester here. Post your issues and get diverse solutions that can make your strategies sizzle.',
+      'Your marketing challenges find solace here. Post your dilemmas and receive a variety of solutions that can turn your strategies enchanting.',
   },
 ];
 
@@ -47,17 +47,16 @@ const CommunitySummary: FC = () => {
   return (
     <section className="py-24 sm:py-32">
       <SectionIntro
-        eyebrow="Your Network on Fire"
-        heading="Blazing connections, right here"
+        eyebrow="Your Network, Amplified"
+        heading="Enchanting connections await"
         level="h3"
         as="h2"
-        description="Sizzle Squad isn't just a Discord server—it's a community designed to set your digital marketing game on fire. Benefit from direct access to experts, network with kindred spirits, and keep your strategies red-hot—all year round. Join us and elevate your marketing from a flicker to a flame."
+        description="And Voila isn't your ordinary Discord server; it's a crucible for digital marketing wizardry. Discover secrets from industry experts, build meaningful connections, and elevate your campaigns to the extraordinary. Join us and transform your marketing into a realm of wonder."
       />
-
       <FadeIn className="relative overflow-hidden pt-16">
         <Image
           src="/community.jpg"
-          alt="A screenshot of the Sizzle Squad community Discord welcome screen, established by Rebekah Radice."
+          alt="A screenshot of the And Voila community Discord welcome screen, established by Rebekah Radice."
           className="mb-[-12%] rounded-xl shadow-2xl md:grayscale md:hover:grayscale-0"
           width={2432}
           height={1442}

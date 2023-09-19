@@ -33,12 +33,12 @@ export default function CommunityCta() {
                       as="h2"
                       className="text-2xl font-bold tracking-tight text-foreground"
                     >
-                      Become a founding member of the Sizzle Squad
+                      Become a founding member of And Voila
                     </H5>
                     <p className="mt-6 text-base text-muted-foreground">
-                      Join now and let&apos;s set the digital marketing world on
-                      fire—together. Get unparalleled advantages that only Early
-                      Access can offer.
+                      Join now and let&apos;s mesmerize the digital marketing
+                      world together. Get unparalleled advantages that only
+                      Early Access can offer.
                     </p>
 
                     <div className="mt-10 flex items-center gap-x-4">

@@ -7,92 +7,87 @@ export interface CommunityFaq {
 export const communityFaqs: CommunityFaq[] = [
   {
     id: 1,
-    question: 'How are payments processed?',
+    question: 'How are payments handled?',
     answer:
-      'We use Discord and Stripe for payments. It’s the big league of online security.',
+      'Stripe and Discord take care of the bill. Consider it your financial VIP section.',
   },
   {
     id: 2,
-    question: 'Can I cancel my membership?',
-    answer: 'Of course, anytime you like. We’re flexible like that.',
+    question: 'Commitment issues?',
+    answer: 'Cancel anytime. We won’t send you sappy break-up songs.',
   },
   {
     id: 3,
-    question: 'Do you offer refunds?',
-    answer: 'Unfortunately, no refunds. But you can cancel anytime.',
+    question: 'What about refunds?',
+    answer: 'No refunds, but breaking up is easy to do.',
   },
   {
     id: 4,
-    question: 'What about privacy?',
+    question: 'Privacy concerns?',
     answer:
-      'We’re privacy-first, but we do need some data. Read our Privacy Policy for the details.',
+      'We guard your data like a bouncer guards the VIP lounge. Check our Privacy Policy.',
   },
   {
     id: 5,
-    question: 'What kind of content can I expect?',
+    question: 'Content menu?',
     answer:
-      'Daily insights, weekly AMAs, and exclusive content. We keep it sizzling.',
+      'Daily insights and weekly AMAs, like a Netflix series but for marketing.',
   },
   {
     id: 6,
-    question: 'What can I ask about?',
-    answer: 'Anything from digital marketing to tech. We’ve got you covered.',
+    question: 'Ask about what?',
+    answer: 'Marketing, tech, or your favorite coffee brew—let’s chat.',
   },
   {
     id: 7,
-    question: 'How is personalized Q/A handled?',
+    question: 'Personalized Q/A?',
     answer:
-      'Drop questions in our channels. Sensitive? DM us, but we might make it public for all to learn.',
+      'Slide into our DMs or post in the channel. Your question might even get its own spotlight.',
   },
   {
     id: 8,
-    question: 'Who can join?',
+    question: 'Who’s invited?',
     answer:
-      'Everyone’s welcome, but it’s mainly digital marketing pros. Trolls won’t fit here.',
+      'If you’re into marketing, come on in. Trolls, please see yourselves out.',
   },
   {
     id: 9,
-    question: 'Is this a safe space?',
-    answer:
-      'Absolutely, but we call it like we see it. Radical Candor is our style.',
+    question: 'Is this a judgment-free zone?',
+    answer: 'Absolutely, but we also appreciate a good debate.',
   },
   {
     id: 10,
-    question: 'How do I access the community?',
-    answer: 'As long as you have internet, you’re in. Easy, right?',
+    question: 'How do I join?',
+    answer: 'Got internet? You’re practically already here.',
   },
   {
     id: 11,
-    question: 'Got any rules?',
-    answer: 'Yes, we do. You’ll see them when you join.',
+    question: 'Any ground rules?',
+    answer: 'Yes, and you’ll get the lowdown when you join.',
   },
   {
     id: 12,
-    question: 'What’s your teaching style?',
-    answer:
-      'Quick and actionable lessons. Learn in 5 minutes, implement today.',
+    question: 'Teaching style?',
+    answer: 'Bite-sized wisdom you can use before your coffee gets cold.',
   },
   {
     id: 13,
-    question: 'How good are you?',
-    answer: 'Our NPS score is 95. We let our members do the talking.',
+    question: 'Are you any good?',
+    answer: 'We’ve got a 95 NPS score, but who’s counting?',
   },
   {
     id: 14,
-    question: 'Why should I join instead of using Twitter, Reddit, etc.?',
-    answer:
-      'Here, you’re not just a username. Every post gets real, expert attention.',
+    question: 'Why not Reddit or Twitter?',
+    answer: 'Here, you’re a VIP, not just another @handle.',
   },
   {
     id: 15,
-    question: 'Is the community active across multiple time zones?',
-    answer:
-      'Absolutely, our mods cover various time zones. It’s a global party.',
+    question: '24/7?',
+    answer: 'Our mods are on a global clock. Someone’s always home.',
   },
   {
     id: 16,
-    question: 'What if I have issues?',
-    answer:
-      'We’re here to help. Reach out, and we’ll do our best to make it right.',
+    question: 'Need help?',
+    answer: 'We’re one message away. Problems solved, capes optional.',
   },
 ];
