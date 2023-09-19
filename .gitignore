@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-.pnp.*
 
 # testing
 /coverage
@@ -22,6 +21,9 @@
 *.pem
 
 # debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
@@ -38,31 +40,9 @@ next-env.d.ts
 
 # vscode
 .vscode/
-.vscode-test
 
 # cursor
 /cursor/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-.pnpm-debug.log*
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Optional eslint cache
-.eslintcache
-
-# Serverless directories
-.serverless/
+# contelayer
+.contentlayer/
