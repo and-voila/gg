@@ -31,12 +31,8 @@ const navigation: Navigation = {
   solutions: [
     { name: 'Community', href: '/' },
     { name: 'Roasts', href: '/roasts' },
-    { name: 'Roast Shop', href: '/shop' },
+    { name: 'Shop', href: '/shop' },
     { name: 'Unlimited', href: '/unlimited' },
-    {
-      name: 'Acquire us',
-      href: 'mailto:hi@bril.la?subject=I%20want%20to%20buy%20your%20company&body=Hey%20there%2C%0A%0AI%20think%20you%27re%20amazing%20and%20I%20want%20to%20buy%20your%20company%20for%20boat%20loads%20of%20money.%20What%20d%27ya%20say%3F',
-    },
   ],
   support: [
     { name: 'Discord', href: '#' },
@@ -46,11 +42,12 @@ const navigation: Navigation = {
   company: [
     { name: 'About', href: '/about' },
     { name: 'Slant', href: '/slant' },
-    { name: 'Blog', href: '/txt' },
-    { name: 'Affiliates', href: '/affiliates' },
+    {
+      name: 'Acquire us',
+      href: 'mailto:hi@bril.la?subject=I%20want%20to%20buy%20your%20company&body=Hey%20there%2C%0A%0AI%20think%20you%27re%20amazing%20and%20I%20want%20to%20buy%20your%20company%20for%20boat%20loads%20of%20money.%20What%20d%27ya%20say%3F',
+    },
   ],
   legal: [
-    { name: 'Guarantee', href: '/100-percent-delight-guaranteed' },
     { name: 'Terms', href: '/terms' },
     { name: 'Privacy', href: '/privacy' },
     { name: 'Accessibility', href: '/accessibility' },
@@ -58,7 +55,7 @@ const navigation: Navigation = {
   social: [
     {
       name: 'Discord',
-      href: '/community',
+      href: '/',
       icon: DiscordLogoIcon,
     },
     {
@@ -82,7 +79,7 @@ const navigation: Navigation = {
     },
     {
       name: 'GitHub',
-      href: 'https://github.com/brilla-cx',
+      href: 'https://github.com/and-voila',
       icon: GitHubLogoIcon,
     },
     {
@@ -99,7 +96,7 @@ const Footer: React.FC = async () => {
   const copyrightName = COMPANY_NAME || SITE_NAME || '';
 
   return (
-    <footer className="mt-4 border-t text-sm text-muted-foreground md:mt-8 md:text-base lg:mt-12">
+    <footer className="mt-4 border-t border-brand/50 text-sm text-muted-foreground md:mt-8 md:text-base lg:mt-12">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -111,8 +108,7 @@ const Footer: React.FC = async () => {
               <Logo className="hidden h-16 sm:block" fillOnHover />
             </Link>
             <p className="text-base leading-6 text-muted-foreground">
-              Helping marketers light up their performance with fun, fast, and
-              actionable roasts.
+              Helping marketers achieve magical performance.
             </p>
             <div className="flex space-x-5">
               {navigation.social.map((item) => (
@@ -207,7 +203,7 @@ const Footer: React.FC = async () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-border py-6 text-sm">
+      <div className="border-t border-brand/50 py-6 text-sm">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-1 px-4 md:flex-row md:gap-0 md:px-4 min-[1320px]:px-0">
           <p>
             &copy; {copyrightDate} {copyrightName}

@@ -7,19 +7,19 @@ export interface UnlimitedFaq {
 export const unlimitedFaqs: UnlimitedFaq[] = [
   {
     id: 1,
-    question: 'What is RoastMy.xyz?',
+    question: 'What is this all about?',
     answer:
-      "Oh, you haven't heard? RoastMy.xyz is where your digital marketing efforts come to either shine or get shamed. Think of us as the Simon Cowell of digital marketing—brutally honest, but you'll thank us later.",
+      "Oh, you haven't heard? This is where your digital marketing efforts come to either shine or get shamed. Think of us as the Simon Cowell of digital marketing—brutally honest, but you'll thank us later.",
   },
   {
     id: 2,
-    question: 'Who are the people behind RoastMy.xyz?',
+    question: 'Who are the people behind it?',
     answer:
       "A motley crew of digital marketing chefs, tech wizards, and a sprinkle of sass. We're the ones who've been judging your online efforts silently. Now, we've made a business out of it.",
   },
   {
     id: 3,
-    question: 'Why should I choose RoastMy.xyz over competitors?',
+    question: 'Why should I choose you over competitors?',
     answer:
       "Because we're not your average, run-of-the-mill, sugar-coated feedback factory. We tell it like it is, with a side of wit and a dash of humor. You'll leave with actionable insights and perhaps a slightly bruised ego, but it's all for the greater Hot. This isn't an upsell either. We'll give you clear, actionable, and resourceful recommendations you can implement yourself.",
   },
@@ -31,7 +31,7 @@ export const unlimitedFaqs: UnlimitedFaq[] = [
   },
   {
     id: 5,
-    question: 'Is RoastMy.xyz suitable for businesses of all sizes?',
+    question: 'Is this service suitable for businesses of all sizes?',
     answer:
       "Absolutely. Whether you're a scrappy startup or a lumbering giant, we've got a roast that'll fit you just right.",
   },
@@ -49,14 +49,14 @@ export const unlimitedFaqs: UnlimitedFaq[] = [
   },
   {
     id: 8,
-    question: 'How did RoastMy.xyz get started?',
+    question: 'How did these roasts get started?',
     answer:
-      'Born out of a passion for brutal honesty and a distaste for mediocre marketing. We looked at the digital landscape and thought, "This needs a Hot roast." So here we are.',
+      'Born out of a passion for brutal honesty and a distaste for mediocre marketing. We looked at the digital landscape and thought, "This needs a hot roast." So here we are.',
   },
   {
     id: 9,
     question: 'Are you affiliated with any other companies or brands?',
     answer:
-      "We're a unique creation by BRIL.LA, LLC. Think of us as the edgier, more outspoken sibling in the family.",
+      "We're a unique creation by BRIL.LA, LLC. a woman-owned digital agency co-founded by Rebekah Radice. Think of us as the edgier, more outspoken sibling in the family.",
   },
 ];

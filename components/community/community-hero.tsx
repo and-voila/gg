@@ -28,16 +28,18 @@ const CommunityHero: FC = () => {
         <FadeIn className="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-2xl lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <SectionIntro
-              eyebrow="Secure Early Access for only $7.99"
-              heading="Magical Marketing"
+              eyebrow="Early Access for only $7.99/MO"
+              heading="Magical marketing"
               level="h2"
               as="h1"
-              description="Struggling with lackluster marketing outcomes? Our premium Discord community is the elixir you've been searching for. Turn your challenges into stepping stones that lead to spellbinding results."
+              description="Scoop up early access to mingle with mods Rebekah Radice and her full-stack crew. Then, watch your campaigns go magical. We're the no-fluff, all wow, premium Discord hub for digital marketing professionals."
             />
           </div>
           <div className="mt-10 flex items-center gap-x-6">
             <Link
-              href="#"
+              href="https://discord.com/servers/and-voila-1151749282806910976"
+              target="_blank"
+              rel="noopener noreferrer"
               className={cn(buttonVariants({ variant: 'custom', size: 'lg' }))}
               aria-label="Join the Sizzle Squad premium Discord server for digital marketing professionals"
             >

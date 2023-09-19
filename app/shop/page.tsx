@@ -8,11 +8,11 @@ import { SITE_URL } from '@/lib/utils';
 export const runtime = 'edge';
 
 export function generateMetadata(): Metadata {
-  const title = 'RoastMy.xyz Roasts Catalog';
+  const title = 'Roast Shop';
   const description =
-    'RoastMy.xyz helps marketers add some heat to their digital marketing. Get a quick and fun roast and light up your funnel. 100% fire guaranteed. 🔥 🙌🏽.';
+    'Our roasts will give you some much needed firepower to supercharge your digital marketing. Fun, fast, and friggin fabulous! No gimmicks or upsells, just heat.';
 
-  const url = `${SITE_URL}/roasts`;
+  const url = `${SITE_URL}/shop`;
 
   const metadata = {
     title,
