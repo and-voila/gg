@@ -1,3 +1,4 @@
+import { MagicWandIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
@@ -16,7 +17,7 @@ const CommunityHero: FC = () => {
         aria-hidden="true"
       >
         <div
-          className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#ffce00] to-[#ff0000] opacity-10"
+          className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#2CB67D] to-[#7F5AF0] opacity-20"
           style={{
             clipPath:
               'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
@@ -27,11 +28,11 @@ const CommunityHero: FC = () => {
         <FadeIn className="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-2xl lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <SectionIntro
-              eyebrow="Get early access + hot perks"
-              heading="Join the Sizzle Squad"
+              eyebrow="Secure Early Access for only $7.99"
+              heading="Magical Marketing"
               level="h2"
               as="h1"
-              description="Ready to stop playing it safe? Join the Sizzle Squad on Discord and turn your marketing strategies into blazing campaigns. We're the match, you're the kindling, let's set the digital marketing world on fire."
+              description="Struggling with lackluster marketing outcomes? Our premium Discord community is the elixir you've been searching for. Turn your challenges into stepping stones that lead to spellbinding results."
             />
           </div>
           <div className="mt-10 flex items-center gap-x-6">
@@ -40,10 +41,16 @@ const CommunityHero: FC = () => {
               className={cn(buttonVariants({ variant: 'custom', size: 'lg' }))}
               aria-label="Join the Sizzle Squad premium Discord server for digital marketing professionals"
             >
-              Join now{' '}
-              <span role="img" aria-label="Fire emoji" aria-hidden="true">
-                🔥
-              </span>
+              Join now
+              <div className="ml-2">
+                <span
+                  role="img"
+                  aria-label="Magic wand icon"
+                  aria-hidden="true"
+                >
+                  <MagicWandIcon />
+                </span>
+              </div>
             </Link>
           </div>
         </FadeIn>

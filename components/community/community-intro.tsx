@@ -21,28 +21,28 @@ interface Reason {
 
 const reasons: Reason[] = [
   {
-    name: 'Access to top experts',
+    name: 'Direct access to experts',
     description:
-      'Unlock personalized Q/A sessions, weekly masterclasses, and 1:1 consultations with industry titans like Rebekah Radice.',
+      'Get personalized Q/A sessions, weekly masterclasses, and one-on-one consultations with industry leaders like Rebekah Radice.',
     href: '/',
     icon: <StarIcon className="h-8 w-8" />,
-    cta: 'Unlock now',
+    cta: 'Unlock Access',
   },
   {
-    name: 'Rocket fuel for results',
+    name: 'Tools for tangible results',
     description:
-      'Supercharge your SEO, social media, and overall marketing campaigns with our exclusive arsenal of tools and insights.',
+      "From conversions to cache, our full-stack marketing mods got you covered. We'll help you reach new levels of spectacular.",
     href: '/',
     icon: <RocketIcon className="h-8 w-8" />,
-    cta: 'Get results',
+    cta: 'Achieve Results',
   },
   {
-    name: 'Join a hot community',
+    name: 'Join a dynamic community',
     description:
-      'Get feedback, share wins, or even find your next gig. Collaborate, network, and grow with marketers as fired-up as you.',
+      'Gain feedback, share achievements, or even find your next opportunity. Collaborate, network, and grow with a community from the ground up.',
     href: '/',
     icon: <DiscordLogoIcon className="h-8 w-8" />,
-    cta: 'Join now',
+    cta: 'Become a Member',
   },
 ];
 
@@ -56,9 +56,10 @@ const CommunityIntro: FC = () => {
               <FadeIn className="relative z-20 mx-auto overflow-hidden rounded-[inherit] bg-primary-foreground p-6 lg:p-12">
                 <SectionIntro
                   eyebrow="Premier Marketing Community"
-                  heading="Your pathway to excellence"
-                  description="Ignite your marketing potential with the Sizzle Squad, the hottest digital marketing Discord server out there. Created by Rebekah Radice, we offer instant access to premium marketing resources. We're here to turn your marketing strategies into blazing successes. 🔥"
+                  heading="Your path to exceptional results"
+                  description="Unlock unparalleled marketing potential with the definitive digital marketing server on Discord. Created by Rebekah Radice, get immediate access to top-tier resources, insights, and most importantly, action."
                 />
+
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                   <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                     {reasons.map((reason) => (

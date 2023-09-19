@@ -61,7 +61,7 @@
     --radius: 0.5rem;
 
     --brand: 255 83% 52%;
-    --alt: 155 61% 44%;
+    --alternate: 155 61% 44%;
   }
 
   .dark {
@@ -96,7 +96,7 @@
     --radius: 0.5rem;
 
     --brand: 255 83% 65%;
-    --alt: 155 61% 44%;
+    --alternate: 155 61% 44%;
   }
 }
 

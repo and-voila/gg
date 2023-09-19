@@ -13,47 +13,47 @@ const problems: Problem[] = [
   {
     title: 'AI, unveiled',
     description:
-      'Confused about how AI can fuel your marketing strategy? We break it down into scorching, actionable advice.',
+      'Uncertain about AI in your marketing strategy? We demystify it with clear, actionable guidance.',
   },
   {
-    title: 'Sift through the smoke',
+    title: 'Real-time updates',
     description:
-      'Overwhelmed by digital marketing trends? We filter through the smoke and haze, delivering blazing insights directly to you.',
+      'Stay ahead with timely insights on tools, techniques, and pivotal industry shifts.',
+  },
+  {
+    title: 'ROI alignment',
+    description:
+      'Struggling to quantify your marketing value? We help you align your actions with measurable business goals.',
   },
   {
     title: 'Evergreen learning',
     description:
-      'Feel like your courses are going up in smoke? Our community offers continuous learning, adapting as the industry evolves.',
+      'Feel like your skills are stagnating? Our community offers adaptive, continuous learning.',
   },
   {
-    title: 'Community ignition',
+    title: 'Sifting through noise',
     description:
-      'Need more than a blog post to fan your marketing flames? Get smoldering solutions from industry experts and peers.',
+      'Bombarded by marketing trends? We distill the essence, delivering insights you can act upon.',
   },
   {
-    title: 'Real-time embers',
+    title: 'Community support',
     description:
-      "Don't get left in the ashes. Stay ahead with real-time updates on tools, techniques, and industry shifts that matter.",
+      'Need more than articles? Get holistic solutions from industry experts and peers.',
   },
   {
-    title: 'Ignite productivity',
+    title: 'Streamlined productivity',
     description:
-      'Caught in the marketing underbrush? We offer focused strategies to streamline your workflow and maximize your impact.',
+      'Lost in task management? We offer focused strategies to optimize your workflow.',
   },
   {
-    title: 'ROI, on fire',
+    title: 'Building confidence',
     description:
-      'Struggling to prove your marketing heat? We help you align your activities with business objectives for measurable ROI.',
+      'Second-guessing your decisions? Gain the skills and support to act decisively.',
   },
   {
-    title: 'Unshakable confidence',
+    title: 'Career advancement',
     description:
-      'Feeling like a flickering candle? We arm you with the skills and support to execute with the confidence of a roaring blaze.',
-  },
-  {
-    title: 'Career combustion',
-    description:
-      'Hit a career plateau? We provide the heat and connections to elevate your professional status.',
+      'Stuck in your career? We offer connections and insights to elevate your professional standing.',
   },
 ];
 
@@ -61,11 +61,10 @@ const CommunityProblems: FC = () => {
   return (
     <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
-        eyebrow="Ready for a Reset?"
-        heading="Ignite your marketing game"
-        description="Feeling scorched by outdated tactics and lukewarm results? Let's fan the flames. We're the catalyst you've been seeking in a sea of digital marketing noise."
+        eyebrow="Time for Transformation?"
+        heading="Elevate Your Marketing Game"
+        description="Feeling lost in the maze of outdated tactics and mediocre results? We're the guiding light in the labyrinth of digital marketing."
       />
-
       <FadeInStagger className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
         <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
           {problems.map((problem) => (

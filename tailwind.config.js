@@ -48,7 +48,7 @@ module.exports = {
         background: 'hsl(var(--background) / <alpha-value>)',
         foreground: 'hsl(var(--foreground) / <alpha-value>)',
         brand: 'hsl(var(--brand) / <alpha-value>)',
-        alt: 'hsl(var(--alt) / <alpha-value>)',
+        alternate: 'hsl(var(--alternate) / <alpha-value>)',
         primary: {
           DEFAULT: 'hsl(var(--primary) / <alpha-value>)',
           foreground: 'hsl(var(--primary-foreground) / <alpha-value>)',
