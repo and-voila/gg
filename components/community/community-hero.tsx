@@ -32,7 +32,7 @@ const CommunityHero: FC = () => {
               heading="Magical marketing"
               level="h2"
               as="h1"
-              description="Scoop up early access to mingle with mods Rebekah Radice and her full-stack crew. Then, watch your campaigns go magical. We're the no-fluff, all wow, premium Discord hub for digital marketing professionals."
+              description="Scoop up early access to mingle with mods Rebekah Radice and her full-stack crew. Then, watch your campaigns go magical. We're the no-fluff, all-wow, premium Discord hub for digital marketing professionals."
             />
           </div>
           <div className="mt-10 flex items-center gap-x-6">

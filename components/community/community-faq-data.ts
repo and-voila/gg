@@ -33,7 +33,7 @@ export const communityFaqs: CommunityFaq[] = [
     id: 5,
     question: 'What kind of content can I expect?',
     answer:
-      'Our content spans daily insights, weekly AMAs, playbooks, and a variety of exclusive digital marketing resources. It’s essentially a one-stop-shop for all your marketing needs.',
+      'Our content spans daily insights, weekly AMAs, playbooks, and a variety of exclusive digital marketing resources. It’s essentially a one-stop shop for all your marketing needs.',
   },
   {
     id: 6,
