@@ -11,7 +11,7 @@ interface Problem {
 
 const problems: Problem[] = [
   {
-    title: 'AI, unveiled',
+    title: 'AI unveiled',
     description:
       'Uncertain about AI in your marketing strategy? We demystify it with clear, actionable guidance.',
   },
