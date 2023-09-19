@@ -21,7 +21,7 @@ const SectionIntro: FC<SectionIntroProps> = ({
   description,
 }) => {
   return (
-    <FadeIn className={`max-w-4xl ${centered ? 'mx-auto text-center' : ''}`}>
+    <FadeIn className={`max-w-5xl ${centered ? 'mx-auto text-center' : ''}`}>
       <p className="font-display text-sm uppercase tracking-widest text-brand">
         {eyebrow}
       </p>

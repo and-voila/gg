@@ -15,21 +15,18 @@ const CommunityLargeCta: FC = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <FadeIn className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
             <GradientHeading level="h3" as="h2">
-              Get some heat, now
+              Act now, results forever
             </GradientHeading>
             <p className="mt-6 text-lg text-muted-foreground">
-              Ever felt like you&apos;re just fanning the flames of mediocrity?
-              Feel like your marketing strategies are more smoke than fire? The
-              clock&apos;s ticking, and there&apos;s no room for lukewarm
-              efforts.
+              Ever felt like you&apos;re navigating a maze without a guide?
+              Tired of mediocre results in a field that demands excellence?
             </p>
             <p className="mt-6 text-base text-muted-foreground">
-              We&apos;re the spark your strategies need, with actionable advice
-              and a community that&apos;s got your back. No more floundering in
-              the dark. Ignite your marketing game today—click below to bring
-              your marketing strategies to a boiling point.
+              We offer the insights and community you&apos;ve been searching
+              for, with actionable advice that makes a tangible difference. No
+              more aimless wandering. Click below to begin your journey toward
+              marketing enlightenment.
             </p>
-
             <div className="mt-10 flex">
               <Link
                 href="#"
