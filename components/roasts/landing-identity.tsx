@@ -24,7 +24,7 @@ const features: Feature[] = [
     name: 'Be the Trendsetter',
     description:
       'Set the pace in your industry with campaigns that not only resonate but also lead the conversation. Because followers never make history.',
-    href: '/',
+    href: '/shop',
     icon: <BarChartIcon className="h-8 w-8" />,
     cta: 'Start trending',
   },
@@ -32,7 +32,7 @@ const features: Feature[] = [
     name: 'Master of Strategy',
     description:
       'Move beyond tactical execution to strategic brilliance. With our insights, you’ll be the mastermind behind every successful campaign.',
-    href: '/',
+    href: '/shop',
     icon: <MagicWandIcon className="h-8 w-8" />,
     cta: 'Begin planning',
   },
@@ -40,7 +40,7 @@ const features: Feature[] = [
     name: 'The Influencer',
     description:
       'Convert your insights into actions that influence behavior. Be the change agent, not just another cog in the wheel.',
-    href: '/',
+    href: '/shop',
     icon: <StarIcon className="h-8 w-8" />,
     cta: 'Get converting',
   },

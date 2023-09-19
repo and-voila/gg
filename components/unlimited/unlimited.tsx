@@ -42,7 +42,7 @@ const pricing: Pricing = {
     {
       name: 'Hot',
       id: 'tier-hot',
-      href: '#',
+      href: 'https://buy.stripe.com/3cs9DLg7n76H37yaEG',
       featured: false,
       description:
         'Turn up the heat on your marketing. Get sizzling strategies and execution, one request at a time, all in a 2-day blaze. Flexibility and delight, guaranteed.',
@@ -62,13 +62,12 @@ const pricing: Pricing = {
         'Access to premium assets',
         'Convenient credit card payments',
         'Pause or cancel anytime',
-        '100% Delight guaranteed',
       ],
     },
     {
       name: 'Hotter',
       id: 'tier-hotter',
-      href: '#',
+      href: 'https://buy.stripe.com/bIYdU108pgHh4bC5kl',
       featured: true,
       description:
         'Your marketing red-hot. Double the requests, half the wait. Same exceptional strategy and execution, turbocharged for your needs.',
@@ -80,13 +79,12 @@ const pricing: Pricing = {
         'Skip the line with priority queue',
         'Two requests at a time',
         '2 business day turnaround',
-        '100% Delight guaranteed',
       ],
     },
     {
       name: 'Hottest',
       id: 'tier-hottest',
-      href: '#',
+      href: 'https://buy.stripe.com/aEUg2908pcr1gYo7ss',
       featured: false,
       description:
         "Double the action, double the results. Enjoy all the benefits of 'Hotter', but with the ability to submit two requests at a time. Ideal for scaling businesses that need more attention, more quickly.",
@@ -98,7 +96,6 @@ const pricing: Pricing = {
         'Skip the line with priority queue',
         'Four requests at a time',
         '1 business day turnaround',
-        '100% Delight guaranteed',
       ],
     },
   ],
@@ -106,6 +103,10 @@ const pricing: Pricing = {
     {
       name: 'Unlimited creativity & execution',
       features: [
+        {
+          name: 'Design and build anything',
+          tiers: { Hot: true, Hotter: true, Hottest: true },
+        },
         {
           name: 'Branding & identity',
           tiers: { Hot: true, Hotter: true, Hottest: true },
@@ -211,19 +212,6 @@ const pricing: Pricing = {
         },
         {
           name: 'Access to premium content',
-          tiers: { Hot: true, Hotter: true, Hottest: true },
-        },
-      ],
-    },
-    {
-      name: 'Exclusive advantages',
-      features: [
-        {
-          name: 'Design and build anything',
-          tiers: { Hot: true, Hotter: true, Hottest: true },
-        },
-        {
-          name: '100% delight guaranteed',
           tiers: { Hot: true, Hotter: true, Hottest: true },
         },
       ],
