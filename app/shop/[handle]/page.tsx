@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!product) return notFound();
 
   const indexable = !product.tags.includes(HIDDEN_PRODUCT_TAG);
-  const url = `${SITE_URL}/roasts/${params.handle}`;
+  const url = `${SITE_URL}/shop/${params.handle}`;
 
   return {
     title: product.seo.title || product.title,
@@ -139,7 +139,7 @@ async function RelatedProducts({ id }: { id: string }) {
           >
             <Link
               className="relative h-full w-full"
-              href={`/roasts/${product.handle}`}
+              href={`/shop/${product.handle}`}
             >
               <GridTileImage
                 alt={product.title}

@@ -97,7 +97,7 @@ export default function CartModal({ cart }: { cart: Cart | undefined }) {
                       );
 
                       const merchandiseUrl = createUrl(
-                        `/roasts/${item.merchandise.product.handle}`,
+                        `/shop/${item.merchandise.product.handle}`,
                         new URLSearchParams(merchandiseSearchParams),
                       );
 

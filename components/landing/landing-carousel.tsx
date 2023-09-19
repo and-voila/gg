@@ -52,7 +52,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Ready to Speed Up?',
     linkText: 'Roast My Website',
     icon: <GlobeIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-mywebsite',
+    linkHref: '/shop/website',
     ariaLabel: 'Get a roast of your website from us.',
   },
   {
@@ -62,7 +62,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Need Brand Clarity?',
     linkText: 'Roast My Identity',
     icon: <EyeNoneIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-brand-identity',
+    linkHref: '/shop/brand-identity',
     ariaLabel: 'Get a roast of your brand identity from us.',
   },
   {
@@ -72,7 +72,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Ready for Conversion?',
     linkText: 'Roast My Landing Page',
     icon: <DesktopIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-landing-page',
+    linkHref: '/shop/landing-page',
     ariaLabel: 'Get a roast of your landing page from us.',
   },
   {
@@ -82,7 +82,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Elevate Your Content?',
     linkText: 'Roast My Content',
     icon: <FileTextIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-content',
+    linkHref: '/shop/content',
     ariaLabel: 'Get a roast of your marketing content from us.',
   },
   {
@@ -92,7 +92,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Ready for Page 1?',
     linkText: 'Roast My SEO',
     icon: <LinkBreak1Icon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-seo',
+    linkHref: '/shop/seo',
     ariaLabel: 'Get a roast of your SEO from us.',
   },
   {
@@ -102,7 +102,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Time to Engage?',
     linkText: 'Roast My Social Media',
     icon: <BellIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-social-media',
+    linkHref: '/shop/social-media',
     ariaLabel: 'Get a roast of your Social Media marketing from us.',
   },
   {
@@ -112,7 +112,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Boost Open Rates?',
     linkText: 'Roast My Email Marketing',
     icon: <EnvelopeClosedIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-email-marketing',
+    linkHref: '/shop/email-marketing',
     ariaLabel: 'Get a roast of your email campaigns from us.',
   },
   {
@@ -122,7 +122,7 @@ const carouselItems: CarouselItem[] = [
     cta: 'Clarify Your Message?',
     linkText: 'Roast My Messaging',
     icon: <ChatBubbleIcon className="h-8 w-8" />,
-    linkHref: '/roasts/roast-my-messaging',
+    linkHref: '/shop/messaging',
     ariaLabel: 'Get a roast of your brand messaging from us.',
   },
 ];

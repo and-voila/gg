@@ -22,7 +22,7 @@ function ThreeItemGridItem({
     >
       <Link
         className="relative block aspect-square h-full w-full"
-        href={`/roasts/${item.handle}`}
+        href={`/shop/${item.handle}`}
       >
         <GridTileImage
           src={item.featuredImage.url}
