@@ -1,6 +1,6 @@
 {
-  "name": "RoastMy.xyz",
-  "short_name": "RoastMy.xyz",
+  "name": "AndVoila.gg",
+  "short_name": "And Voila",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#f54500",
-  "background_color": "#f54500",
+  "theme_color": "#010101",
+  "background_color": "#010101",
   "display": "standalone"
 }
