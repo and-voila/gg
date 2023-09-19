@@ -1,59 +1,38 @@
-import { Carousel } from 'components/carousel';
-import { ThreeItemGrid } from 'components/grid/three-items';
-import { Metadata } from 'next';
-import { Suspense } from 'react';
+import { Container } from '@/components/container';
+import LandingCarousel from '@/components/landing/landing-carousel';
+import LandingClients from '@/components/landing/landing-clients';
+import Collections from '@/components/landing/landing-collections';
+import LandingCommunity from '@/components/landing/landing-community';
+import LandingCta from '@/components/landing/landing-cta';
+import LandingHero from '@/components/landing/landing-hero';
+import LandingHowItWorks from '@/components/landing/landing-how-it-works';
+import LandingIdentity from '@/components/landing/landing-identity';
+import LandingProgress from '@/components/landing/landing-progress';
+import LandingRelief from '@/components/landing/landing-relief';
+import LandingSummary from '@/components/landing/landing-summary';
 
-import { SITE_URL } from '@/lib/utils';
+export const metadata = {
+  description:
+    'RoastMy.xyz helps marketers add some heat to their digital marketing. Get a quick and fun roast and light up your funnel. 100% delight guaranteed. 🔥 🙌🏽.',
+  openGraph: {
+    type: 'website',
+  },
+};
 
-export const runtime = 'edge';
-
-export function generateMetadata(): Metadata {
-  const title = 'RoastMy.xyz Roasts Catalog';
-  const description =
-    'RoastMy.xyz helps marketers add some heat to their digital marketing. Get a quick and fun roast and light up your funnel. 100% fire guaranteed. 🔥 🙌🏽.';
-
-  const url = `${SITE_URL}/roasts`;
-
-  const metadata = {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      images: [
-        {
-          url: '/open-graph.gif',
-          width: 1200,
-          height: 630,
-          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
-        },
-      ],
-      url,
-    },
-    twitter: {
-      title,
-      description,
-      images: [
-        {
-          url: '/open-graph.gif',
-          width: 1200,
-          height: 630,
-          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
-        },
-      ],
-    },
-  };
-
-  return metadata;
-}
-
-export default async function ShopPage() {
+export default async function HomePage() {
   return (
-    <>
-      <ThreeItemGrid />
-      <Suspense>
-        <Carousel />
-      </Suspense>
-    </>
+    <Container>
+      <LandingHero />
+      <LandingHowItWorks />
+      <LandingClients />
+      <LandingSummary />
+      <LandingRelief />
+      <LandingCarousel />
+      <LandingIdentity />
+      <Collections />
+      <LandingCommunity />
+      <LandingProgress />
+      <LandingCta />
+    </Container>
   );
 }

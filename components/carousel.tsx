@@ -23,7 +23,7 @@ export async function Carousel() {
             className="relative aspect-square h-[30vh] max-h-[275px] w-2/3 max-w-[475px] flex-none md:w-1/3"
           >
             <Link
-              href={`/roasts/${product.handle}`}
+              href={`/shop/${product.handle}`}
               className="relative h-full w-full"
             >
               <GridTileImage

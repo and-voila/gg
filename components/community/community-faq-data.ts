@@ -7,87 +7,104 @@ export interface CommunityFaq {
 export const communityFaqs: CommunityFaq[] = [
   {
     id: 1,
-    question: 'How are payments handled?',
+    question: 'How are payments processed?',
     answer:
-      'Stripe and Discord take care of the bill. Consider it your financial VIP section.',
+      'We partner with Stripe and Discord to handle payments. Both platforms are PCI-DSS Level I certified—essentially, your financial data is as secure as it gets.',
   },
   {
     id: 2,
-    question: 'Commitment issues?',
-    answer: 'Cancel anytime. We won’t send you sappy break-up songs.',
+    question: 'Can I cancel my membership?',
+    answer:
+      'Yes, you can cancel at any time. Your membership will remain active until your current billing cycle concludes.',
   },
   {
     id: 3,
-    question: 'What about refunds?',
-    answer: 'No refunds, but breaking up is easy to do.',
+    question: 'Do you offer refunds?',
+    answer:
+      'No, we don’t offer refunds. If you find the membership isn’t meeting your expectations, reach out, and we’ll explore ways to improve your experience.',
   },
   {
     id: 4,
-    question: 'Privacy concerns?',
+    question: 'What about privacy?',
     answer:
-      'We guard your data like a bouncer guards the VIP lounge. Check our Privacy Policy.',
+      'We prioritize your privacy. We collect only the necessary data to facilitate your membership and offer personalized experiences. For full details, consult our Privacy Policy.',
   },
   {
     id: 5,
-    question: 'Content menu?',
+    question: 'What kind of content can I expect?',
     answer:
-      'Daily insights and weekly AMAs, like a Netflix series but for marketing.',
+      'Our content spans daily insights, weekly AMAs, playbooks, and a variety of exclusive digital marketing resources. It’s essentially a one-stop-shop for all your marketing needs.',
   },
   {
     id: 6,
-    question: 'Ask about what?',
-    answer: 'Marketing, tech, or your favorite coffee brew—let’s chat.',
+    question: 'What topics can I ask about?',
+    answer:
+      'Our expertise covers the entire digital marketing spectrum. If you have a question that stumps us, we’ll tap into our network to find an answer for you.',
   },
   {
     id: 7,
-    question: 'Personalized Q/A?',
+    question: 'How are personalized Q/A sessions handled?',
     answer:
-      'Slide into our DMs or post in the channel. Your question might even get its own spotlight.',
+      'For general queries, use the designated channels like #hey-ambreen, #hey-rebekah, or #hey-sam. For sensitive topics, a DM to one of the mods works. We may anonymize and share the dialogue if it holds wider community value.',
   },
   {
     id: 8,
-    question: 'Who’s invited?',
+    question: 'Who can join?',
     answer:
-      'If you’re into marketing, come on in. Trolls, please see yourselves out.',
+      'Anyone with an interest in digital marketing is welcome. This is a premium Discord server without the usual challenges. Trolls, who find their way in, will be shown the door.',
   },
   {
     id: 9,
-    question: 'Is this a judgment-free zone?',
-    answer: 'Absolutely, but we also appreciate a good debate.',
+    question: 'Is this a safe space?',
+    answer:
+      'Absolutely. Our conversations are candid but respectful. Radical Candor governs our feedback culture.',
   },
   {
     id: 10,
-    question: 'How do I join?',
-    answer: 'Got internet? You’re practically already here.',
+    question: 'What is Radical Candor?',
+    answer:
+      'Radical Candor is direct feedback that’s also deeply empathetic. It’s not about being blunt; it’s about being honest in a way that fosters personal and professional growth.',
   },
   {
     id: 11,
-    question: 'Any ground rules?',
-    answer: 'Yes, and you’ll get the lowdown when you join.',
+    question: 'How do I access the community?',
+    answer:
+      'As long as you have internet access, just log into Discord and find the And Voila server in your sidebar. You’re in.',
   },
   {
     id: 12,
-    question: 'Teaching style?',
-    answer: 'Bite-sized wisdom you can use before your coffee gets cold.',
+    question: 'Are there any community rules?',
+    answer:
+      'Certainly. Upon joining, you’ll be guided through our Community Guidelines, Terms of Service, and Privacy Policy.',
   },
   {
     id: 13,
-    question: 'Are you any good?',
-    answer: 'We’ve got a 95 NPS score, but who’s counting?',
+    question: 'What is your teaching style?',
+    answer:
+      'We specialize in micro-lessons and bite-sized content. You can absorb actionable insights in 5 minutes or less, and even string them together for a comprehensive playbook.',
   },
   {
     id: 14,
-    question: 'Why not Reddit or Twitter?',
-    answer: 'Here, you’re a VIP, not just another @handle.',
+    question: 'Are you any good at what you do?',
+    answer:
+      'Our NPS score is 95, and we pride ourselves on that. We let our community’s satisfaction speak for itself.',
   },
   {
     id: 15,
-    question: '24/7?',
-    answer: 'Our mods are on a global clock. Someone’s always home.',
+    question: 'Why should I join instead of using Twitter, Reddit, etc.?',
+    answer:
+      'Here, each member receives individualized expert attention. Unlike platforms where you’re lost in the noise, we ensure timely and targeted responses.',
   },
   {
     id: 16,
-    question: 'Need help?',
-    answer: 'We’re one message away. Problems solved, capes optional.',
+    question: 'Is the community active across multiple time zones?',
+    answer:
+      'Yes, we’re a global community. Whether you’re an early bird or a night owl, you’ll find someone to engage with.',
+  },
+  {
+    id: 17,
+    question: 'What should I do if I encounter issues?',
+    answer:
+      'We’re responsive to your concerns. Contact us directly through our site or on the Discord server. We’re committed to resolving any issues you may have.',
   },
 ];

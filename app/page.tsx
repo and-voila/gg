@@ -1,38 +1,72 @@
+import { Metadata } from 'next';
+
+import Community from '@/components/community/community';
+import CommunityEarlyAccess from '@/components/community/community-early-access';
+import { communityFaqs } from '@/components/community/community-faq-data';
+import CommunityHero from '@/components/community/community-hero';
+import CommunityIntro from '@/components/community/community-intro';
+import CommunityLargeCta from '@/components/community/community-large-cta';
+import CommunityProblems from '@/components/community/community-problems';
+import CommunitySummary from '@/components/community/community-summary';
+import CommunityTeam from '@/components/community/community-team';
 import { Container } from '@/components/container';
-import LandingCarousel from '@/components/landing/landing-carousel';
-import LandingClients from '@/components/landing/landing-clients';
-import Collections from '@/components/landing/landing-collections';
-import LandingCommunity from '@/components/landing/landing-community';
-import LandingCta from '@/components/landing/landing-cta';
-import LandingHero from '@/components/landing/landing-hero';
-import LandingHowItWorks from '@/components/landing/landing-how-it-works';
-import LandingIdentity from '@/components/landing/landing-identity';
-import LandingProgress from '@/components/landing/landing-progress';
-import LandingRelief from '@/components/landing/landing-relief';
-import LandingSummary from '@/components/landing/landing-summary';
+import FaqComponent from '@/components/faq';
+import { SITE_URL } from '@/lib/utils';
 
-export const metadata = {
-  description:
-    'RoastMy.xyz helps marketers add some heat to their digital marketing. Get a quick and fun roast and light up your funnel. 100% delight guaranteed. 🔥 🙌🏽.',
-  openGraph: {
-    type: 'website',
-  },
-};
+export function generateMetadata(): Metadata {
+  const title = 'Sizzle Squad Discord';
+  const description =
+    'Join the best digital marketing Discord server for professionals. The Sizzle Squad was created by Rebekah Radice to fire up your marketing performance. 🔥';
 
-export default async function HomePage() {
+  const url = `${SITE_URL}/community`;
+
+  const metadata = {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [
+        {
+          url: '/open-graph.gif',
+          width: 1200,
+          height: 630,
+          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
+        },
+      ],
+      url,
+    },
+    twitter: {
+      title,
+      description,
+      images: [
+        {
+          url: '/open-graph.gif',
+          width: 1200,
+          height: 630,
+          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
+        },
+      ],
+    },
+  };
+
+  return metadata;
+}
+
+export default async function CommunityPage() {
   return (
-    <Container>
-      <LandingHero />
-      <LandingHowItWorks />
-      <LandingClients />
-      <LandingSummary />
-      <LandingRelief />
-      <LandingCarousel />
-      <LandingIdentity />
-      <Collections />
-      <LandingCommunity />
-      <LandingProgress />
-      <LandingCta />
-    </Container>
+    <div>
+      <CommunityHero />
+      <Container>
+        <CommunityIntro />
+        <CommunityTeam />
+        <CommunityProblems />
+        <CommunityLargeCta />
+        <CommunitySummary />
+        <CommunityEarlyAccess />
+        <Community />
+        <FaqComponent faqs={communityFaqs} />
+      </Container>
+    </div>
   );
 }

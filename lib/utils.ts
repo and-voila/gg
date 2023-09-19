@@ -31,4 +31,4 @@ export function formatDate(input: string | number): string {
   });
 }
 
-export const SITE_URL: string = 'https://roastmy.xyz';
+export const SITE_URL: string = 'https://andvoila.gg';

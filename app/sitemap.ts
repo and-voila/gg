@@ -16,7 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const additionalRoutes = [
     '/affiliates',
     '/community',
-    '/txt',
+    '/roasts',
     '/txt',
     '/unlimited',
   ];
@@ -41,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const productsPromise = getProducts({}).then((products) =>
     products.map((product) => ({
-      url: `${baseUrl}/roasts/${product.handle}`,
+      url: `${baseUrl}/shop/${product.handle}`,
       lastModified: product.updatedAt,
     })),
   );

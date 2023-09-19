@@ -29,8 +29,9 @@ interface Navigation {
 
 const navigation: Navigation = {
   solutions: [
+    { name: 'Community', href: '/' },
     { name: 'Roasts', href: '/roasts' },
-    { name: 'Community', href: '/community' },
+    { name: 'Roast Shop', href: '/shop' },
     { name: 'Unlimited', href: '/unlimited' },
     {
       name: 'Acquire us',
