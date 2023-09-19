@@ -1,4 +1,3 @@
-/** @type {import('prettier').Options} */
 module.exports = {
   printWidth: 80,
   semi: true,
@@ -6,7 +5,10 @@ module.exports = {
   tabWidth: 2,
   trailingComma: 'all',
   useTabs: false,
-  tailwindFunctions: ['clsx', 'cn'],
-  tailwindConfig: './tailwind.config.ts',
+  bracketSpacing: true,
+  arrowParens: 'always',
+  endOfLine: 'lf',
+  tailwindFunctions: ['cn', 'clsx'],
+  tailwindConfig: './tailwind.config.js',
   plugins: ['prettier-plugin-tailwindcss'],
 };

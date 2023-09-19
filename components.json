@@ -4,8 +4,8 @@
   "rsc": true,
   "tsx": true,
   "tailwind": {
-    "config": "tailwind.config.ts",
-    "css": "src/styles/base.css",
+    "config": "tailwind.config.js",
+    "css": "./styles/base.css",
     "baseColor": "gray",
     "cssVariables": true
   },
