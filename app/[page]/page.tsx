@@ -3,6 +3,7 @@ import { getPage } from 'lib/shopify';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
+import { H1 } from '@/components/typography';
 import { SITE_URL } from '@/lib/utils';
 
 export const runtime = 'edge';
@@ -64,7 +65,9 @@ export default async function Page({ params }: { params: { page: string } }) {
 
   return (
     <>
-      <h1 className="mb-8 text-5xl font-bold">{page.title}</h1>
+      <H1 as="h1" className="mb-8">
+        {page.title}
+      </H1>
       <Prose className="mb-8" html={page.body as string} />
       <p className="text-sm italic">
         {`This document was last updated on ${new Intl.DateTimeFormat(
