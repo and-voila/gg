@@ -33,10 +33,6 @@ const navigation: Navigation = {
     { name: 'Roasts', href: '/roasts' },
     { name: 'Shop', href: '/shop' },
     { name: 'Unlimited', href: '/unlimited' },
-    {
-      name: 'Acquire us',
-      href: 'mailto:hi@bril.la?subject=I%20want%20to%20buy%20your%20company&body=Hey%20there%2C%0A%0AI%20think%20you%27re%20amazing%20and%20I%20want%20to%20buy%20your%20company%20for%20boat%20loads%20of%20money.%20What%20d%27ya%20say%3F',
-    },
   ],
   support: [
     { name: 'Discord', href: '#' },
@@ -46,6 +42,10 @@ const navigation: Navigation = {
   company: [
     { name: 'About', href: '/about' },
     { name: 'Slant', href: '/slant' },
+    {
+      name: 'Acquire us',
+      href: 'mailto:hi@bril.la?subject=I%20want%20to%20buy%20your%20company&body=Hey%20there%2C%0A%0AI%20think%20you%27re%20amazing%20and%20I%20want%20to%20buy%20your%20company%20for%20boat%20loads%20of%20money.%20What%20d%27ya%20say%3F',
+    },
   ],
   legal: [
     { name: 'Terms', href: '/terms' },
@@ -96,7 +96,7 @@ const Footer: React.FC = async () => {
   const copyrightName = COMPANY_NAME || SITE_NAME || '';
 
   return (
-    <footer className="mt-4 border-t text-sm text-muted-foreground md:mt-8 md:text-base lg:mt-12">
+    <footer className="mt-4 border-t border-brand/50 text-sm text-muted-foreground md:mt-8 md:text-base lg:mt-12">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -203,7 +203,7 @@ const Footer: React.FC = async () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-border py-6 text-sm">
+      <div className="border-t border-brand/50 py-6 text-sm">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-1 px-4 md:flex-row md:gap-0 md:px-4 min-[1320px]:px-0">
           <p>
             &copy; {copyrightDate} {copyrightName}

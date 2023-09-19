@@ -1,3 +1,4 @@
+import { MagicWandIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
@@ -29,23 +30,31 @@ const CommunityLargeCta: FC = () => {
             </p>
             <div className="mt-10 flex">
               <Link
-                href="#"
+                href="https://discord.com/servers/and-voila-1151749282806910976"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({ variant: 'custom', size: 'lg' }),
                 )}
                 aria-label="Join the Sizzle Squad premium Discord server for digital marketing professionals"
               >
-                Join the squad{' '}
-                <span role="img" aria-label="Fire emoji" aria-hidden="true">
-                  🔥
-                </span>
+                Begin enlightenment{' '}
+                <div className="ml-2">
+                  <span
+                    role="img"
+                    aria-label="Magic wand icon"
+                    aria-hidden="true"
+                  >
+                    <MagicWandIcon />
+                  </span>
+                </div>
               </Link>
             </div>
           </FadeIn>
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <FadeIn className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <Image
-                src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
+                src="/maze.jpg"
                 width={1152}
                 height={842}
                 alt=""
@@ -55,7 +64,7 @@ const CommunityLargeCta: FC = () => {
             <FadeInStagger className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
               <FadeIn className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                 <Image
-                  src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                  src="/hallway.jpg"
                   width={1152}
                   height={842}
                   alt=""
@@ -64,7 +73,7 @@ const CommunityLargeCta: FC = () => {
               </FadeIn>
               <FadeIn className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                 <Image
-                  src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                  src="/penguins.jpg"
                   width={1152}
                   height={842}
                   alt=""
@@ -73,7 +82,7 @@ const CommunityLargeCta: FC = () => {
               </FadeIn>
               <FadeIn className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                 <Image
-                  src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                  src="/rebekah-beer.jpg"
                   width={1152}
                   height={842}
                   alt=""

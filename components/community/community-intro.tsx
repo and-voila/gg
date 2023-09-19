@@ -24,7 +24,7 @@ const reasons: Reason[] = [
     name: 'Direct access to experts',
     description:
       'Get personalized Q/A sessions, weekly masterclasses, and one-on-one consultations with industry leaders like Rebekah Radice.',
-    href: '/',
+    href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <StarIcon className="h-8 w-8" />,
     cta: 'Unlock Access',
   },
@@ -32,7 +32,7 @@ const reasons: Reason[] = [
     name: 'Tools for tangible results',
     description:
       "From conversions to cache, our full-stack marketing mods got you covered. We'll help you reach new levels of spectacular.",
-    href: '/',
+    href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <RocketIcon className="h-8 w-8" />,
     cta: 'Achieve Results',
   },
@@ -40,7 +40,7 @@ const reasons: Reason[] = [
     name: 'Join a dynamic community',
     description:
       'Gain feedback, share achievements, or even find your next opportunity. Collaborate, network, and grow with a community from the ground up.',
-    href: '/',
+    href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <DiscordLogoIcon className="h-8 w-8" />,
     cta: 'Become a Member',
   },
@@ -77,6 +77,8 @@ const CommunityIntro: FC = () => {
                           <div className="mt-6 flex items-center justify-end">
                             <Link
                               href={reason.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
                               aria-label={`Click to ${reason.cta}`}
                               className="group mt-4 flex items-center text-base font-medium text-foreground transition duration-150 ease-in-out hover:text-muted-foreground"
                             >

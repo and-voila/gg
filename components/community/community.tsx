@@ -77,14 +77,16 @@ export default function CommunityCta() {
                           </span>
                         </p>
                         <Link
-                          href="/roasts"
+                          href="https://discord.com/servers/and-voila-1151749282806910976"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className={cn(
                             buttonVariants({ variant: 'custom' }),
                             'mt-10 block w-full',
                           )}
                           aria-label="Join the Sizzle Squad community and set your marketing campaigns on fire"
                         >
-                          Oh, yaaasss please{' '}
+                          Get early access{' '}
                           <span
                             role="img"
                             aria-label="Fire emoji"
