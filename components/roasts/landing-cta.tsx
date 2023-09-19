@@ -31,7 +31,7 @@ export default function LandingCta() {
                     </p>
                     <div className="mt-8 max-w-xs space-y-2 max-md:mx-auto">
                       <Link
-                        href="/roasts"
+                        href="/shop"
                         className={cn(
                           buttonVariants({ variant: 'custom', size: 'lg' }),
                         )}
