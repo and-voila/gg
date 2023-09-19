@@ -34,10 +34,10 @@ export async function generateMetadata({
       url,
       images: [
         {
-          url: '/open-graph.gif',
+          url: '/open-graph.jpg',
           width: 1200,
           height: 630,
-          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
+          alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
         },
       ],
     },
@@ -47,10 +47,10 @@ export async function generateMetadata({
       description: description,
       images: [
         {
-          url: '/open-graph.gif',
+          url: '/open-graph.jpg',
           width: 1200,
           height: 630,
-          alt: 'A GIF with a flickering hot flame and the RoastMy.xyz logomark.',
+          alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
         },
       ],
     },
