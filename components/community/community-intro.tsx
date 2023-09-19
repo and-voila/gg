@@ -8,7 +8,7 @@ import Link from 'next/link';
 import React, { FC } from 'react';
 
 import { FadeIn } from '../fade-in';
-import Highlighter, { HighlighterItem } from '../landing/highlighter';
+import Highlighter, { HighlighterItem } from '../roasts/highlighter';
 import SectionIntro from '../section-intro';
 
 interface Reason {

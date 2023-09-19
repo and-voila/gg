@@ -11,7 +11,7 @@ const LandingCommunity: FC = () => {
       <SectionIntro
         eyebrow="Fire Up Your Network"
         heading="Hot connections"
-        description="Every roast comes with a one-year membership to our exclusive Discord community. Join 400,000+ marketers who are just as serious as you."
+        description="Every roast comes with a 90 day membership to our premium Discord community. You'll get instant access to a network of digital marketers who can help you succeed."
       />
       <FadeIn className="relative overflow-hidden pt-16">
         <Image

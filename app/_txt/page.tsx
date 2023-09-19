@@ -13,7 +13,7 @@ export const runtime = 'edge';
 export function generateMetadata(): Metadata {
   const title = 'RoastMy.xyz Blog';
   const description =
-    "Looking for some heat for your marketing? You're in the right place. The RoastMy.xyz blog serves up sizzling strategies and insights. Pure marketing heat.";
+    "Looking for some magic for your marketing? You're in the right place. The And Voila blog serves up epic insights. Want more? Join our premium Discord server.";
 
   const url = `${SITE_URL}/txt`;
 

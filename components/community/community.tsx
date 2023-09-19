@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 import { FadeIn } from '../fade-in';
-import Highlighter, { HighlighterItem } from '../landing/highlighter';
+import Highlighter, { HighlighterItem } from '../roasts/highlighter';
 import { H5 } from '../typography';
 import { buttonVariants } from '../ui/button';
 

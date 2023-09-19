@@ -8,7 +8,7 @@ export const runtime = 'edge';
 export function generateMetadata(): Metadata {
   const title = 'Unlimited Design Build';
   const description =
-    'What will you create with a world-class, award-winning design team on your side? Get started with an unlimited design build package from RoastMy.xyz. 🔥';
+    'What would you do with a world-class, award-winning, full-stack marketing team on your side? Get started to find out with an unlimited package from And Voila.';
 
   const url = `${SITE_URL}/unlimited`;
 

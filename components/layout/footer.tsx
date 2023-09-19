@@ -31,7 +31,7 @@ const navigation: Navigation = {
   solutions: [
     { name: 'Community', href: '/' },
     { name: 'Roasts', href: '/roasts' },
-    { name: 'Roast Shop', href: '/shop' },
+    { name: 'Shop', href: '/shop' },
     { name: 'Unlimited', href: '/unlimited' },
     {
       name: 'Acquire us',
@@ -46,11 +46,8 @@ const navigation: Navigation = {
   company: [
     { name: 'About', href: '/about' },
     { name: 'Slant', href: '/slant' },
-    { name: 'Blog', href: '/txt' },
-    { name: 'Affiliates', href: '/affiliates' },
   ],
   legal: [
-    { name: 'Guarantee', href: '/100-percent-delight-guaranteed' },
     { name: 'Terms', href: '/terms' },
     { name: 'Privacy', href: '/privacy' },
     { name: 'Accessibility', href: '/accessibility' },
@@ -58,7 +55,7 @@ const navigation: Navigation = {
   social: [
     {
       name: 'Discord',
-      href: '/community',
+      href: '/',
       icon: DiscordLogoIcon,
     },
     {
@@ -82,7 +79,7 @@ const navigation: Navigation = {
     },
     {
       name: 'GitHub',
-      href: 'https://github.com/brilla-cx',
+      href: 'https://github.com/and-voila',
       icon: GitHubLogoIcon,
     },
     {
@@ -111,8 +108,7 @@ const Footer: React.FC = async () => {
               <Logo className="hidden h-16 sm:block" fillOnHover />
             </Link>
             <p className="text-base leading-6 text-muted-foreground">
-              Helping marketers light up their performance with fun, fast, and
-              actionable roasts.
+              Helping marketers achieve magical performance.
             </p>
             <div className="flex space-x-5">
               {navigation.social.map((item) => (

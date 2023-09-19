@@ -29,10 +29,10 @@ const CommunityHero: FC = () => {
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <SectionIntro
               eyebrow="Secure Early Access for only $7.99"
-              heading="Magical Marketing"
+              heading="Magical results"
               level="h2"
               as="h1"
-              description="Struggling with lackluster marketing outcomes? Our premium Discord community is the elixir you've been searching for. Turn your challenges into stepping stones that lead to spellbinding results."
+              description="Scoop up early access to mingle with mods Rebekah Radice and her full-stack crew. Then, watch your campaigns go magical. We're the no-fluff, all wow, premium Discord hub for digital marketing professionals."
             />
           </div>
           <div className="mt-10 flex items-center gap-x-6">

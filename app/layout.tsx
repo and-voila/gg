@@ -38,7 +38,7 @@ export const metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    'Need better digital marketing results? Get an expert roast of your marketing assets or join the Sizzle Squad, the best digital marketing server on Discord. 🔥',
+    'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
   keywords: [
     'Exclusive Digital Marketing Community',
     'Digital Marketing Community',
@@ -50,7 +50,7 @@ export const metadata = {
     type: 'website',
     title: SITE_NAME!,
     description:
-      'Need better digital marketing results? Get an expert roast of your marketing assets or join the Sizzle Squad, the best digital marketing server on Discord. 🔥',
+      'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
     images: [
       {
         url: '/open-graph.gif',
@@ -71,7 +71,7 @@ export const metadata = {
       twitter: {
         title: SITE_NAME!,
         description:
-          'Need better digital marketing results? Get an expert roast of your marketing assets or join the Sizzle Squad, the best digital marketing server on Discord. 🔥',
+          'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
         card: 'summary_large_image',
         creator: twitterCreator,
         site: twitterSite,

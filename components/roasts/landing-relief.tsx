@@ -35,7 +35,7 @@ const LandingRelief: React.FC<CardProps> = () => {
       description: 'Preheat success, avoid rookie missteps.',
       content:
         'We spotlight pitfalls before you stumble so you can start strong. Get field-tested insights that provide a solid foundation.',
-      link: '/roasts',
+      link: '/shop',
       cta: 'Kickstart now',
       icon: RocketIcon,
       ariaLabel:
@@ -46,7 +46,7 @@ const LandingRelief: React.FC<CardProps> = () => {
       description: 'Reignite momentum, reduce frustration.',
       content:
         'Get an expert assist to blast through plateaus. Break free from wheel-spinning and back on the fast track.',
-      link: '/roasts',
+      link: '/shop',
       cta: 'Break free',
       icon: CrumpledPaperIcon,
       ariaLabel: 'Get your project back on track with a roast from us.',
@@ -56,7 +56,7 @@ const LandingRelief: React.FC<CardProps> = () => {
       description: 'Weigh the pros and cons with data, not drama.',
       content:
         "Get real talk to decide if you should stick or twist. Make the call with confidence knowing we've got your back.",
-      link: '/roasts',
+      link: '/shop',
       cta: 'Decide wisely',
       icon: MixIcon,
       ariaLabel:

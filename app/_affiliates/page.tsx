@@ -12,7 +12,7 @@ export const runtime = 'edge';
 export function generateMetadata(): Metadata {
   const title = 'RoastMy.xyz Affiliate Program';
   const description =
-    'Earn up to 50% commission on your first referral and up to 40% for lifetime. RoastMy.xyz is the hottest affiliate program on the web with 120 day cookies.';
+    'Earn up to 50% commission on your first roast and up to 40% for lifetime roasts. And Voila is the hottest affiliate program on the web with 120 day cookies.';
 
   const url = `${SITE_URL}/affiliates`;
 
