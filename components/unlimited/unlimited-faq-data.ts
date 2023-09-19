@@ -7,56 +7,86 @@ export interface UnlimitedFaq {
 export const unlimitedFaqs: UnlimitedFaq[] = [
   {
     id: 1,
-    question: 'What is this all about?',
+    question: 'What does "Unlimited" really mean?',
     answer:
-      "Oh, you haven't heard? This is where your digital marketing efforts come to either shine or get shamed. Think of us as the Simon Cowell of digital marketing—brutally honest, but you'll thank us later.",
+      'Unlimited means you can make as many requests as your package allows, within a billing cycle. The actual number depends on the turnaround time and how fast you approve our submissions.',
   },
   {
     id: 2,
-    question: 'Who are the people behind it?',
+    question: 'How is the pricing structured?',
     answer:
-      "A motley crew of digital marketing chefs, tech wizards, and a sprinkle of sass. We're the ones who've been judging your online efforts silently. Now, we've made a business out of it.",
+      'Our pricing is straightforward and transparent. Choose between Hot, Hotter, and Hottest tiers, with increasing benefits and capabilities. Each tier has a monthly fee, billed at the start of your cycle.',
   },
   {
     id: 3,
-    question: 'Why should I choose you over competitors?',
+    question: 'What’s the cancellation policy?',
     answer:
-      "Because we're not your average, run-of-the-mill, sugar-coated feedback factory. We tell it like it is, with a side of wit and a dash of humor. You'll leave with actionable insights and perhaps a slightly bruised ego, but it's all for the greater Hot. This isn't an upsell either. We'll give you clear, actionable, and resourceful recommendations you can implement yourself.",
+      'You can cancel your subscription anytime. However, the service will continue till the end of the current billing cycle.',
   },
   {
     id: 4,
-    question: 'What makes your roasting approach unique?',
+    question: 'How does the "priority queue" work?',
     answer:
-      'We combine years of expertise with a knack for telling it like it is. No fluff, no jargon, just straight-up, actionable advice—served hot.',
+      'In our Hotter and Hottest packages, your requests jump to the front of our work queue. It’s like having a Fast Pass at a theme park.',
   },
   {
     id: 5,
-    question: 'Is this service suitable for businesses of all sizes?',
+    question: 'Can I change my package later?',
     answer:
-      "Absolutely. Whether you're a scrappy startup or a lumbering giant, we've got a roast that'll fit you just right.",
+      'Absolutely. You can upgrade or downgrade your package at any time. The new rate will apply from the next billing cycle.',
   },
   {
     id: 6,
-    question: 'What industries do you typically serve?',
+    question: 'What’s the turnaround time?',
     answer:
-      "You name it, we've probably roasted it. E-commerce, tech, healthcare, even your mom-and-pop shop down the street. If you have a digital presence, you're fair game.",
+      'Turnaround time varies by package. Hot offers a 2-business day turnaround, Hotter maintains the same but allows for two requests at a time, and Hottest offers a 1-business day turnaround for four simultaneous requests.',
   },
   {
     id: 7,
-    question: 'Do you offer custom roasts?',
+    question: 'Do you offer refunds on Unlimited Packages?',
     answer:
-      "Custom roasts? You betcha. If our menu doesn't tickle your fancy, reach out, and we'll cook up something special just for you.",
+      'While we strive to delight in every aspect of our service, please note that we cannot offer refunds for our Unlimited packages. These are specialized, ongoing services that involve resources and expertise tailored to your needs. Your commitment to these packages is a commitment to long-term excellence, and we deliver on our end with the same level of dedication.',
   },
   {
     id: 8,
-    question: 'How did these roasts get started?',
+    question: 'What about ownership of creative assets?',
     answer:
-      'Born out of a passion for brutal honesty and a distaste for mediocre marketing. We looked at the digital landscape and thought, "This needs a hot roast." So here we are.',
+      'You own full copyrights to all the creative assets we develop for you. They’re yours to use as you see fit.',
   },
   {
     id: 9,
-    question: 'Are you affiliated with any other companies or brands?',
+    question: "What do you mean by 'human-generated'?",
     answer:
-      "We're a unique creation by BRIL.LA, LLC. a woman-owned digital agency co-founded by Rebekah Radice. Think of us as the edgier, more outspoken sibling in the family.",
+      "When we say 'human-generated,' we mean that every piece of work we deliver is crafted by skilled professionals. While we leverage AI tools to assist in some processes, the final creative output and decision-making are entirely human-driven. This distinction is crucial, especially when it comes to copyright ownership, ensuring that you have exclusive rights to the unique and original work we produce for you.",
+  },
+  {
+    id: 10,
+    question: 'What types of tasks can I submit?',
+    answer:
+      "Our services span a broad spectrum—from design and branding to SEO and content strategy. Whether you're aiming for a new website, a custom app, or an innovative marketing strategy, we're your go-to team. However, it's crucial to align expectations. For instance, a single request in website development could mean crafting one complex component. For a full breakdown of our offerings, check out our comprehensive features list.",
+  },
+  {
+    id: 11,
+    question: 'Is there a limit to team members I can add?',
+    answer:
+      'You can bring your whole team on board. We believe in collective growth and offer solutions that benefit not just individuals but entire teams.',
+  },
+  {
+    id: 12,
+    question: 'How do payments work?',
+    answer:
+      'We’ve partnered with Stripe for secure and hassle-free payments. All major credit cards are accepted.',
+  },
+  {
+    id: 13,
+    question: 'How do I submit a request?',
+    answer:
+      'Once you’re a member, you’ll get access to a dedicated dashboard where you can submit, track, and approve all your requests.',
+  },
+  {
+    id: 14,
+    question: 'What if I have more questions?',
+    answer:
+      'We’re always here to help. Reach out via our Contact page, or speak directly to our customer support team via Discord.',
   },
 ];
