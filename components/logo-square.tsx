@@ -27,7 +27,7 @@ export function Logomark({ invert, filled, sidebar, ...props }: LogomarkProps) {
           invert ? 'stroke-gray-50' : 'stroke-gray-950 dark:stroke-gray-50'
         }
         fill="none"
-        strokeWidth=".6"
+        strokeWidth="1"
       />
       <defs>
         <path
