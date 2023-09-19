@@ -23,7 +23,7 @@ export function generateMetadata(): Metadata {
       description,
       images: [
         {
-          url: '/open-graph.jpg',
+          url: '/open-graph.gif',
           width: 1200,
           height: 630,
           alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
@@ -36,7 +36,7 @@ export function generateMetadata(): Metadata {
       description,
       images: [
         {
-          url: '/open-graph.jpg',
+          url: '/open-graph.gif',
           width: 1200,
           height: 630,
           alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',

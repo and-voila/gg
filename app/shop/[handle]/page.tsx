@@ -43,7 +43,7 @@ export async function generateMetadata({
       url,
       images: [
         {
-          url: '/open-graph.jpg',
+          url: '/open-graph.gif',
           width: 1200,
           height: 630,
           alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
@@ -56,7 +56,7 @@ export async function generateMetadata({
       description: product.seo.description,
       images: [
         {
-          url: '/open-graph.jpg',
+          url: '/open-graph.gif',
           width: 1200,
           height: 630,
           alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
