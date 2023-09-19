@@ -20,7 +20,7 @@ const LandingHero: FC = () => {
       />
       <FadeIn className="mt-10 flex justify-center">
         <Link
-          href="/roasts"
+          href="/shop"
           className={cn(buttonVariants({ variant: 'custom', size: 'lg' }))}
           aria-label="Get roasted and improve your marketing campaigns"
         >

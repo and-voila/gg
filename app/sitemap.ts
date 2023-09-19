@@ -1,8 +1,6 @@
 import { getCollections, getPages, getProducts } from 'lib/shopify';
 import { MetadataRoute } from 'next';
 
-import { generateStaticParams } from './_txt/[...slug]/page';
-
 type Route = {
   url: string;
   lastModified: string;
@@ -17,7 +15,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/affiliates',
     '/community',
     '/roasts',
-    '/txt',
     '/unlimited',
   ];
   const routesMap = [...additionalRoutes, ''].map((route) => ({
@@ -25,12 +22,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date().toISOString(),
   }));
 
-  const blogPostSlugs = await generateStaticParams();
+  {
+    /*const blogPostSlugs = await generateStaticParams();
 
   const blogPostRoutes = blogPostSlugs.map(({ slug }) => ({
     url: `${baseUrl}/txt/${slug.join('/')}`,
     lastModified: new Date().toISOString(),
-  }));
+  }));*/
+  }
 
   const collectionsPromise = getCollections().then((collections) =>
     collections.map((collection) => ({
@@ -63,5 +62,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     throw JSON.stringify(error, null, 2);
   }
 
-  return [...routesMap, ...blogPostRoutes, ...fetchedRoutes];
+  return [...routesMap, ...fetchedRoutes];
 }
