@@ -14,11 +14,11 @@ import FaqComponent from '@/components/faq';
 import { SITE_URL } from '@/lib/utils';
 
 export function generateMetadata(): Metadata {
-  const title = 'Sizzle Squad Discord';
+  const title = 'And Voila Discord';
   const description =
-    'Join the best digital marketing Discord server for professionals. The Sizzle Squad was created by Rebekah Radice to fire up your marketing performance. 🔥';
+    'Join the best digital marketing Discord server for professionals. Created by Rebekah Radice to add some magic to your marketing performance. 🔥';
 
-  const url = `${SITE_URL}/community`;
+  const url = `${SITE_URL}/`;
 
   const metadata = {
     title,

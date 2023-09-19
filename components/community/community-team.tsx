@@ -28,7 +28,7 @@ const people: Person[] = [
     name: 'Rebekah Radice',
     role: 'Co-Founder / Sales & Marketing',
     imageUrl: '/images/team/rebekah-radice-hair.png',
-    bio: "With two decades in global branding, I've honed a knack for turning insights into action. At BRIL.LA, I leverage this experience to provide you with strategies that matter. Off the clock, I enjoy honing my culinary skills with Italian cuisine.",
+    bio: "With two decades in global branding, I've honed a knack for turning insights into action. At BRIL.LA, I leverage this experience to provide you with strategies that matter. Off the clock, I enjoy polishing my culinary skills with Italian cuisine.",
     twitterUrl: 'https://twitter.com/RebekahRadice',
     linkedinUrl: 'https://www.linkedin.com/in/rebekahradice/',
   },

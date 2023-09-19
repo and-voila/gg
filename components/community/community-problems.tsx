@@ -13,7 +13,7 @@ const problems: Problem[] = [
   {
     title: 'AI unveiled',
     description:
-      'Uncertain about AI in your marketing strategy? We demystify it with clear, actionable guidance.',
+      'Uncertain about using AI in your marketing strategy? We demystify it with clear, actionable guidance.',
   },
   {
     title: 'Real-time updates',
@@ -53,7 +53,7 @@ const problems: Problem[] = [
   {
     title: 'Career advancement',
     description:
-      'Stuck in your career? We offer connections and insights to elevate your professional standing.',
+      'Stuck in your career? We provide connections and insights to elevate your professional standing.',
   },
 ];
 
