@@ -53,7 +53,7 @@ export const metadata = {
       'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
     images: [
       {
-        url: '/open-graph.jpg',
+        url: '/open-graph.gif',
         width: 1200,
         height: 630,
         alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
@@ -77,7 +77,7 @@ export const metadata = {
         site: twitterSite,
         images: [
           {
-            url: '/open-graph.jpg',
+            url: '/open-graph.gif',
             alt: 'An open graph image that appears to look like a Loading screen with the And Voila logo.',
           },
         ],
