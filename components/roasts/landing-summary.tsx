@@ -44,7 +44,7 @@ export default function LandingSummary() {
                     </div>
                     <div>
                       <Link
-                        href="/roasts"
+                        href="/shop"
                         className={cn(
                           buttonVariants({ variant: 'custom' }),
                           'mt-4',
