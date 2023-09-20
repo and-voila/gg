@@ -42,7 +42,7 @@ export default function Search() {
         autoComplete="off"
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
-        className="w-full rounded-lg border bg-primary-foreground px-4 py-2 text-sm text-foreground placeholder:text-muted-foreground"
+        className="w-full rounded-lg border bg-primary-foreground px-4 py-2 text-xs text-foreground placeholder:text-muted-foreground md:text-sm"
       />
       <div className="absolute right-0 top-0 mr-3 flex h-full items-center">
         <MagnifyingGlassIcon className="h-4 w-4" />
