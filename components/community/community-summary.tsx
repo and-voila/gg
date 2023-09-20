@@ -66,7 +66,7 @@ const CommunitySummary: FC = () => {
         </div>
       </FadeIn>
       <div className="mt-16 sm:mt-20 md:mt-24">
-        <FadeInStagger className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+        <FadeInStagger className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-foreground sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
             <FadeIn key={feature.name} className="relative pl-9">
               <div className="inline font-display text-base text-foreground lg:text-lg">

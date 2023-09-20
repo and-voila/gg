@@ -12,7 +12,7 @@ const stats = [
 
 const AffiliatesContent: FC = (): ReactElement => {
   return (
-    <section className="mx-auto mt-14 px-6 py-1 sm:px-8 sm:py-32 md:mt-0">
+    <section className="mx-auto mt-14 py-1 sm:py-32 md:mt-0">
       <div className="max-w-2xl lg:mx-0 lg:max-w-none">
         <div className="grid max-w-xl grid-cols-1 gap-8 text-base text-muted-foreground lg:max-w-none lg:grid-cols-2">
           <FadeInStagger>
@@ -22,7 +22,7 @@ const AffiliatesContent: FC = (): ReactElement => {
               </GradientHeading>
             </FadeIn>
             <FadeIn>
-              <p className="mt-6">
+              <p className="mt-6 text-base lg:text-lg">
                 Are you a digital marketer, entrepreneur, or creator looking to
                 fire up your revenue? Join the brand that&apos;s blazing a trail
                 in digital marketing. If you&apos;re passionate about helping
@@ -31,7 +31,7 @@ const AffiliatesContent: FC = (): ReactElement => {
               </p>
             </FadeIn>
             <FadeIn>
-              <p className="mt-8">
+              <p className="mt-8 text-base lg:text-lg">
                 We fuel startups to established brands, giving them the spark to
                 capture more customers and skyrocket their profits with our
                 targeted roasts. With RoastMy.xyz, you&apos;re not just
@@ -47,7 +47,7 @@ const AffiliatesContent: FC = (): ReactElement => {
               </GradientHeading>
             </FadeIn>
             <FadeIn>
-              <p className="mt-6">
+              <p className="mt-6 text-base lg:text-lg">
                 Your bank account is about to bask in a warm glow, starting with
                 a hefty 50% commission on your first referral. The benefits
                 don&apos;t end there. Continue sending hot leads our way and
@@ -56,7 +56,7 @@ const AffiliatesContent: FC = (): ReactElement => {
               </p>
             </FadeIn>
             <FadeIn>
-              <ul className="mt-8 list-inside list-disc">
+              <ul className="mt-8 list-inside list-disc text-base lg:text-lg">
                 <li>Up to 40% recurring commission</li>
                 <li>Tiered payouts</li>
                 <li>120-day cookie window</li>

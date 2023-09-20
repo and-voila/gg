@@ -16,7 +16,7 @@ interface FaqComponentProps {
 
 const FaqComponent: React.FC<FaqComponentProps> = ({ faqs }) => {
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
+    <div className="mx-auto max-w-7xl py-16 sm:py-24">
       <FadeIn>
         <GradientHeading level="h2">Frequently Asked Questions</GradientHeading>
         <p className="mt-6 max-w-2xl text-base text-muted-foreground lg:text-lg">

@@ -59,7 +59,7 @@ const features: Feature[] = [
 
 const CommunityEarlyAccess: FC = () => {
   return (
-    <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8">
+    <div className="mx-auto py-24 sm:py-32">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <SectionIntro
           eyebrow="Exclusive Benefits"
@@ -71,14 +71,14 @@ const CommunityEarlyAccess: FC = () => {
         <FadeInStagger className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base text-muted-foreground sm:grid-cols-2 lg:gap-y-16">
           {features.map((feature) => (
             <FadeIn key={feature.name} className="relative pl-9">
-              <div className="font-display text-lg text-foreground">
+              <div className="font-display text-lg text-foreground lg:text-xl">
                 <PlusIcon
                   className="absolute left-0 top-1 h-5 w-5 text-brand/70"
                   aria-hidden="true"
                 />
                 {feature.name}
               </div>
-              <div className="mt-2">{feature.description}</div>
+              <div className="mt-2 lg:text-lg">{feature.description}</div>
             </FadeIn>
           ))}
         </FadeInStagger>
