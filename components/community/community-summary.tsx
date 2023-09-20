@@ -55,7 +55,7 @@ const CommunitySummary: FC = () => {
       />
       <FadeIn className="relative overflow-hidden pt-16">
         <Image
-          src="/summary.jpg"
+          src="/images/community/summary.jpg"
           alt="A screenshot of the And Voila community Discord welcome screen, established by Rebekah Radice."
           className="mb-[-12%] rounded-xl shadow-2xl md:grayscale md:hover:grayscale-0"
           width={2432}

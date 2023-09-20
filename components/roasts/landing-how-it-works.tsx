@@ -69,7 +69,7 @@ const LandingHowItWorks: FC = () => {
         </div>
         <FadeIn>
           <Image
-            src="/roast-my.jpg"
+            src="/images/roasts/roast-my.jpg"
             alt="A screenshot of a RoastMy.xyz report with mock data."
             className="w-[48rem] max-w-none rounded-2xl shadow-xl transition-all duration-300 ease-in-out sm:w-[57rem] md:-ml-4 md:grayscale md:hover:grayscale-0 lg:-ml-0 lg:mt-10"
             width={2432}
