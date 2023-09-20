@@ -52,7 +52,7 @@ const benefits = [
 
 const AffiliatesBenefits: FC = (): ReactElement => {
   return (
-    <section className="mx-auto mt-32 max-w-6xl px-6 sm:mt-40 lg:px-8">
+    <section className="mx-auto mt-32 max-w-7xl sm:mt-40">
       <FadeInStagger className="max-w-4xl lg:mx-0">
         <FadeIn>
           <p className="font-display text-sm font-medium uppercase tracking-widest text-brand">

@@ -13,7 +13,7 @@ const AffiliatesHero: FC = (): ReactElement => {
     <section>
       <AffiliatesHeroBackground />
       <div className="px-6 lg:px-8">
-        <FadeInStagger className="mx-auto max-w-6xl pt-24 text-center sm:pt-40">
+        <FadeInStagger className="mx-auto max-w-7xl pt-24 text-center sm:pt-40">
           <PageIntro
             eyebrow="Earn up to 50% commission"
             heading="We love affiliates"

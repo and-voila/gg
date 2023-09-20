@@ -38,7 +38,7 @@ const items: Item[] = [
 
 const LandingHowItWorks: FC = () => {
   return (
-    <section className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+    <section className="relative isolate py-24 sm:py-32">
       <FadeIn>
         <SectionIntro
           eyebrow="Roasting in three steps"

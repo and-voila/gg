@@ -225,7 +225,7 @@ function classNames(...classes: (false | null | undefined | string)[]) {
 
 export default function Unlimited() {
   return (
-    <main className="px-6 py-24 sm:py-32 lg:px-8">
+    <main className="py-24 sm:py-32">
       <section>
         {/* Pricing section */}
         <PageIntro

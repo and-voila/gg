@@ -15,7 +15,7 @@ export function Container({
   return (
     <Component
       className={clsx(
-        'mx-auto max-w-7xl overflow-hidden px-6 lg:px-8',
+        'mx-auto max-w-7xl overflow-hidden px-6 lg:px-8 xl:px-10',
         className,
       )}
     >

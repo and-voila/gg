@@ -59,7 +59,7 @@ const features: Feature[] = [
 
 const CommunityEarlyAccess: FC = () => {
   return (
-    <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8">
+    <div className="mx-auto py-24 sm:py-32">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <SectionIntro
           eyebrow="Exclusive Benefits"

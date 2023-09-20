@@ -63,7 +63,7 @@ function classNames(...classes: (string | false)[]): string {
 
 export default function LandingPricing() {
   return (
-    <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate py-24 sm:py-32">
       <FadeIn className="mx-auto max-w-2xl text-center">
         <p className="text-sm font-medium uppercase tracking-wider  text-brand dark:text-brand">
           Membership levels

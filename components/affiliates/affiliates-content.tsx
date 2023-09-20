@@ -12,7 +12,7 @@ const stats = [
 
 const AffiliatesContent: FC = (): ReactElement => {
   return (
-    <section className="mx-auto mt-14 px-6 py-1 sm:px-8 sm:py-32 md:mt-0 lg:px-8">
+    <section className="mx-auto mt-14 py-1 sm:py-32 md:mt-0">
       <div className="max-w-2xl lg:mx-0 lg:max-w-none">
         <div className="grid max-w-xl grid-cols-1 gap-8 text-base text-muted-foreground lg:max-w-none lg:grid-cols-2">
           <FadeInStagger>
