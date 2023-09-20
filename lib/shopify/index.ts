@@ -352,14 +352,15 @@ export async function getCollections(): Promise<Collection[]> {
       path: '/search',
       updatedAt: new Date().toISOString(),
     },
-    // Filter out the `hidden` collections.
-    // Collections that start with `hidden-*` need to be hidden on the search page.
+
     ...reshapeCollections(shopifyCollections).filter(
       (collection) => !collection.handle.startsWith('hidden'),
     ),
   ];
 
-  return collections;
+  return collections.map((collection) =>
+    JSON.parse(JSON.stringify(collection)),
+  );
 }
 
 export async function getMenu(handle: string): Promise<Menu[]> {
@@ -408,7 +409,8 @@ export async function getProduct(handle: string): Promise<Product | undefined> {
     },
   });
 
-  return reshapeProduct(res.body.data.product, false);
+  const product = reshapeProduct(res.body.data.product, false);
+  return JSON.parse(JSON.stringify(product));
 }
 
 export async function getProductRecommendations(
