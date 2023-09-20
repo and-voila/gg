@@ -158,7 +158,7 @@ export default function LandingCarousel() {
   }, []);
 
   return (
-    <section className="py-24 sm:py-32">
+    <section className="px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
         eyebrow="Your Ambitions, Our Mission"
         heading="We make you look good"

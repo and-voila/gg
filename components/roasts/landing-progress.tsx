@@ -13,7 +13,7 @@ import { GradientHeading } from '../gradient-headings';
 
 const LandingProgress: FC = () => {
   return (
-    <section className="py-24 sm:py-32">
+    <section className="px-6 py-24 sm:py-32 lg:px-8">
       <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <GradientHeading level="h4" as="h2">
           Up your game

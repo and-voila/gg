@@ -11,7 +11,7 @@ import Highlighter, { HighlighterItem } from './highlighter';
 
 export default function LandingCta() {
   return (
-    <FadeIn className="relative py-24 sm:py-32">
+    <FadeIn className="relative px-6 py-24 sm:py-32 lg:px-8">
       <Highlighter>
         <div className="group relative mx-auto">
           <HighlighterItem>

@@ -65,7 +65,7 @@ const LandingRelief: React.FC<CardProps> = () => {
   ];
 
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
         eyebrow="Expert guidance for every situation"
         heading="No more guessing games"

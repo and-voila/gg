@@ -25,7 +25,7 @@ const clientLogos = [
 
 const LandingClients = () => {
   return (
-    <section className="py-24 sm:py-32">
+    <section className="px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
         centered={true}
         eyebrow="Battle-tested roasts"

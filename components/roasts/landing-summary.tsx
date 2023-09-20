@@ -14,7 +14,7 @@ import Highlighter, { HighlighterItem } from './highlighter';
 
 export default function LandingSummary() {
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
         centered={true}
         eyebrow="We bring the heat"

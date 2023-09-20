@@ -45,7 +45,7 @@ const features: Feature[] = [
 
 const CommunitySummary: FC = () => {
   return (
-    <section className="py-24 sm:py-32">
+    <section className="px-6 py-24 sm:py-32 lg:px-8">
       <SectionIntro
         eyebrow="Your Network, Amplified"
         heading="Enchanting connections await"
