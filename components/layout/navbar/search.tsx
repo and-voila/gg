@@ -38,7 +38,7 @@ export default function Search() {
       <input
         type="text"
         name="search"
-        placeholder="Search for the roast you need the most..."
+        placeholder="Search for a roast..."
         autoComplete="off"
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
