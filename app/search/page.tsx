@@ -9,7 +9,7 @@ import { SITE_URL } from '@/lib/utils';
 export const runtime = 'edge';
 
 export function generateMetadata(): Metadata {
-  const title = 'Search RoastMy.xyz';
+  const title = 'Search Roasts';
   const description =
     'Search for the roast you need the most. We help marketers supercharge their digital marketing. 🔥';
 

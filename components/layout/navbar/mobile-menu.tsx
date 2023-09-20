@@ -1,15 +1,23 @@
 'use client';
 
 import { Dialog, Transition } from '@headlessui/react';
-import { Cross1Icon, HamburgerMenuIcon } from '@radix-ui/react-icons';
-import { Menu } from 'lib/shopify/types';
+import {
+  Cross1Icon,
+  DiscordLogoIcon,
+  HamburgerMenuIcon,
+} from '@radix-ui/react-icons';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Fragment, useEffect, useState } from 'react';
 
-import Search from './search';
+const menu = [
+  { name: 'Community', href: '/' },
+  { name: 'Roasts', href: '/roasts' },
+  { name: 'Shop', href: '/shop' },
+  { name: 'Contact', href: '/contact' },
+];
 
-export default function MobileMenu({ menu }: { menu: Menu[] }) {
+export default function MobileMenu() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isOpen, setIsOpen] = useState(false);
@@ -61,31 +69,43 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
             leaveFrom="translate-x-0"
             leaveTo="translate-x-[-100%]"
           >
-            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-background">
+            <Dialog.Panel className="fixed bottom-0 left-0 right-0 top-0 flex h-full w-full flex-col bg-brand">
               <div className="p-4">
                 <button
-                  className="mb-4 flex h-11 w-11 items-center justify-center rounded-md border border-border text-foreground transition-colors"
+                  className="mb-4 flex h-11 w-11 items-center justify-center rounded-md border border-white text-foreground transition-colors dark:border-black"
                   onClick={closeMobileMenu}
                   aria-label="Close mobile menu"
                 >
-                  <Cross1Icon className="h-6 w-6" />
+                  <Cross1Icon className="h-6 w-6 text-white dark:text-black" />
                 </button>
 
-                <div className="mb-4 w-full">
-                  <Search />
-                </div>
                 {menu.length ? (
-                  <ul className="flex w-full flex-col">
-                    {menu.map((item: Menu) => (
+                  <ul className="mt-16 flex w-full flex-col">
+                    {menu.map((item) => (
                       <li
-                        className="py-2 text-xl text-foreground transition-colors hover:text-muted-foreground"
-                        key={item.title}
+                        className="py-2 font-display text-3xl text-white transition hover:text-black dark:text-black dark:hover:text-white"
+                        key={item.name}
                       >
-                        <Link href={item.path} onClick={closeMobileMenu}>
-                          {item.title}
+                        <Link
+                          href={item.href}
+                          onClick={closeMobileMenu}
+                          aria-label={`Navigate to ${item.name}`}
+                        >
+                          {item.name}
                         </Link>
                       </li>
                     ))}
+                    <li className="py-4 font-display text-3xl text-white transition hover:text-black dark:text-black dark:hover:text-white">
+                      <Link
+                        href="https://discord.com/servers/and-voila-1151749282806910976"
+                        onClick={closeMobileMenu}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Navigate to And Voila Discord server"
+                      >
+                        <DiscordLogoIcon className="h-12 w-12" />
+                      </Link>
+                    </li>
                   </ul>
                 ) : null}
               </div>
