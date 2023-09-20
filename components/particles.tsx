@@ -129,13 +129,11 @@ export default function Particles({
       context.current.beginPath();
       context.current.arc(x, y, size, 0, 2 * Math.PI);
       const colors = [
-        'rgba(255, 94, 31, 0.5)',
-        'rgba(255, 80, 10, 0.5)',
-        'rgba(255, 69, 0, 0.5)',
-        'rgba(255, 165, 0, 0.5)',
-        'rgba(255, 140, 0, 0.5)',
+        'rgba(44, 182, 125, 0.5)', // #2cb67d
+        'rgba(82, 31, 234, 0.5)', // #521fea
+        'rgba(127, 90, 240, 0.5)', // #7f5af0
+        'rgba(9, 188, 239, 0.5)', // #09bcef
       ];
-      // const colors = ['#ff5e1f', '#ff500a', '#ff4500', '#ffa500', '#ff8c00'];
       const color = colors[Math.floor(Math.random() * colors.length)];
       context.current.fillStyle = `${color}`;
       context.current.fill();
