@@ -1,17 +1,17 @@
-# RoastMy.xyz by BRIL.LA Security Policy
+# AndVoila.gg by BRIL.LA Security Policy
 
-## Supported versions
+## Supported Versions
 
-As you know, our project is still in its newbie phase. We're like a startup, constantly growing and evolving. That means we don't have any old versions gathering dust in the attic. Nope, we're fresh as a daisy, with every new update, patch, and cool feature applied straight to your current version of RoastMy.xyz.
+Our project is continually evolving, just like a fledgling spell in the hands of a master wizard. There are no older, less effective versions lurking in the shadows. Every new update, patch, and awe-inspiring feature is promptly applied to your current version of AndVoila.gg.
 
-## Reporting a vulnerability
+## Reporting a Vulnerability
 
-But here's the serious bit. We care about your safety and security. So, if you trip over a security glitch, **[please send us an email](mailto:ouch@roastmy.xyz)** instead of posting it on the public issue tracker.
+Here's the crucial part: your safety and security are paramount to us. Should you discover a security vulnerability, **[contact us directly](mailto:hi@bril.la)** rather than posting it on the public issue tracker.
 
-This way, we can address the issue without causing unnecessary panic.
+Taking this approach allows us to remedy the situation without inciting undue concern.
 
-Your help in keeping our community safe is really appreciated. Within 2 days, we'll give you a heads-up that we've received your report. And within a week, we'll provide a more detailed response, filling you in on how we plan to tackle the issue you've discovered.
+We highly value your assistance in maintaining a secure community. You can expect an acknowledgment within 48 hours of sending your report, followed by a comprehensive response within a week, detailing our action plan for addressing the issue you've identified.
 
-We'll keep the lines of communication open and keep you updated on our progress in squashing the bug and making the announcement. If you don't hear back from us within 48 hours, drop us another line just to make sure we got your original message.
+We pledge to keep you informed of our progress in resolving the vulnerability and making a public announcement. If you don't hear back from us within 48 hours, feel free to reach out again to ensure we received your initial message.
 
-We're all in this together, so please keep your discovery on the down-low until we've had a chance to address it. Thanks for helping us keep RoastMy.xyz safe and secure for everyone.
+Your discretion until we've adequately addressed the vulnerability is much appreciated. Thank you for contributing to the security and well-being of the AndVoila.gg community.

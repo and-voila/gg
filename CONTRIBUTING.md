@@ -1,47 +1,47 @@
-# Contributing to RoastMy
+# Contributing to AndVoila.gg
 
-Hello and welcome, Sizzler! We're thrilled that you're interested in contributing to RoastMy. Your contributions will help us keep the marketing world ablaze. This guide will help you get started on the right foot.
+Hello and welcome, Enchanter! We're thrilled that you're interested in contributing to AndVoila.gg. Your contributions will help us keep the digital marketing world enchanted. This guide will help you embark on your magical journey with us.
 
 ## Code of Conduct
 
-We're committed to fostering an open and welcoming environment. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand what kind of behavior is expected.
+We're committed to fostering an open and welcoming environment. To understand the behavior we expect, please read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Types of Contributions
 
 ### Bug Reports
 
-If you've found a bug, please check existing [issues](https://github.com/brilla-cx/roast-my/issues) to see if it's already been reported. If it hasn't, feel free to [open a new issue](https://github.com/brilla-cx/roast-my/issues/new).
+Found a glitch in our magical matrix? Please check existing [issues](https://github.com/and-voila/gg//issues) to see if it's already been reported. If not, feel free to [open a new issue](https://github.com/and-voila/gg/issues/new).
 
 ### Features and Enhancements
 
-Have a sizzling feature idea? First, check the existing [issues](https://github.com/brilla-cx/roast-my/issues) to see if it's already been suggested. If not, [open a new issue](https://github.com/brilla-cx/roast-my/issues/new) describing your idea.
+Got an enchanting feature idea? First, browse through existing [issues](https://github.com/and-voila/gg//issues) to see if someone else has had the same thought. If it's a fresh idea, [open a new issue](https://github.com/and-voila/gg/issues/new) to describe it.
 
 ### Documentation
 
-If you spot a gap in our docs, we'd love your help in filling it. Whether it's a typo or an entire tutorial, all contributions are welcome.
+Found a gap in our grimoire? Whether it's a typo or an entire guide, we'd love your expertise in filling it.
 
 ## Setting Up Your Development Environment
 
 1. **Fork the Repo**: Start by forking the repository to your GitHub account.
 2. **Clone Your Fork**: Clone the forked repository to your local machine.
-3. **Install Dependencies**: Run `pnpm install` to install all necessary packages.
-4. **Create a New Branch**: Always create a new branch for your work.
+3. **Install Dependencies**: Run `pnpm install` to install all required packages.
+4. **Create a New Branch**: Always conjure a new branch for your contributions.
 
 ## Submitting a Pull Request
 
-1. **Commit Your Changes**: Make sure to stage and commit your changes.
-2. **Push to GitHub**: Push the changes to your fork on GitHub.
-3. **Create a Pull Request**: Navigate to the original repository and create a new pull request.
+1. **Commit Your Changes**: Stage and commit your magical alterations.
+2. **Push to GitHub**: Push these changes to your fork on GitHub.
+3. **Create a Pull Request**: Visit the original repository and create a new pull request.
 
-Please ensure your PR adheres to the following:
+When crafting your PR, ensure it contains:
 
-- Descriptive title
-- Detailed description
-- Linked issue (if applicable)
+- A descriptive title
+- A detailed description
+- A linked issue (if applicable)
 
 ## Additional Resources
 
 - [GitHub Docs: Forking Projects](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - [GitHub Docs: About Pull Requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-Thank you for considering contributing to RoastMy. We're excited to see what you'll bring to the project!
+Thank you for considering contributing to AndVoila.gg. We can't wait to see the magic you'll bring to our realm!
