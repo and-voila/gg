@@ -69,9 +69,9 @@ export default function LandingCta() {
                                 y1="100%"
                                 y2="0%"
                               >
-                                <stop offset="0%" stopColor="#ff0000" />
-                                <stop offset="76.382%" stopColor="#ff5a00" />
-                                <stop offset="100%" stopColor="#ffce00" />
+                                <stop offset="0%" stopColor="#7f5af0" />
+                                <stop offset="76.382%" stopColor="#2cb67d" />
+                                <stop offset="100%" stopColor="#521fea" />
                               </linearGradient>
                             </defs>
                             <g fillRule="evenodd">

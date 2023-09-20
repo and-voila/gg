@@ -52,7 +52,7 @@ const benefits = [
 
 const AffiliatesBenefits: FC = (): ReactElement => {
   return (
-    <section className="mx-auto mt-32 max-w-6xl px-6 sm:mt-40 lg:px-8">
+    <section className="mx-auto mt-32 max-w-7xl sm:mt-40">
       <FadeInStagger className="max-w-4xl lg:mx-0">
         <FadeIn>
           <p className="font-display text-sm font-medium uppercase tracking-widest text-brand">
@@ -72,14 +72,14 @@ const AffiliatesBenefits: FC = (): ReactElement => {
       <FadeInStagger className="mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-muted-foreground sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
         {benefits.map((benefit) => (
           <FadeIn key={benefit.name} className="relative pl-9">
-            <dt className="inline font-semibold text-foreground">
+            <dt className="inline font-semibold text-foreground lg:text-lg">
               <benefit.icon
                 className="absolute left-1 top-2 h-5 w-5 text-brand"
                 aria-hidden="true"
               />
               {benefit.name}
             </dt>{' '}
-            <dd className="inline">{benefit.description}</dd>
+            <dd className="inline lg:text-lg">{benefit.description}</dd>
           </FadeIn>
         ))}
       </FadeInStagger>

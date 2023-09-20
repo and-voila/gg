@@ -59,7 +59,7 @@ const problems: Problem[] = [
 
 const CommunityProblems: FC = () => {
   return (
-    <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8">
+    <div className="mx-auto py-24 sm:py-32">
       <SectionIntro
         eyebrow="Time for Transformation?"
         heading="Elevate Your Marketing Game"

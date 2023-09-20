@@ -27,7 +27,7 @@ export default function CommunityCta() {
           <div className="group">
             <HighlighterItem>
               <FadeIn className="relative z-20 overflow-hidden rounded-[inherit] bg-primary-foreground">
-                <div className="mt-16 max-w-2xl lg:flex lg:max-w-none">
+                <div className="mt-8 max-w-2xl lg:flex lg:max-w-none">
                   <div className="p-8 sm:p-10 lg:flex-auto">
                     <H5
                       as="h2"

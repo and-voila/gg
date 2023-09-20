@@ -44,7 +44,7 @@ const people: Person[] = [
 
 const CommunityTeam: FC = () => {
   return (
-    <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-20 px-6 py-24 md:py-32 lg:px-8 xl:grid-cols-5">
+    <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-20 py-24 md:py-32 xl:grid-cols-5">
       <FadeIn className="max-w-2xl xl:col-span-2">
         <GradientHeading level="h3" as="h2">
           Meet the mods
