@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { cn } from '@/lib/utils';
-import FeatureImg01 from '@/public/feature-image-01.png';
-import FeatureImg02 from '@/public/feature-image-02.png';
-import FeatureImg03 from '@/public/feature-image-03.png';
+import ChartImg from '@/public/images/roasts/chart.png';
+import GrillImg from '@/public/images/roasts/grill.png';
+import TeamImg from '@/public/images/roasts/team.png';
 
 import { FadeIn } from '../fade-in';
 import { GradientHeading } from '../gradient-headings';
@@ -66,7 +66,7 @@ export default function LandingSummary() {
                   <div className="relative h-64 w-full overflow-hidden md:h-auto">
                     <Image
                       className="md:left-0{md}transla{}-x-0 absolute bottom-0 left-1/2 mx-auto max-w-none -translate-x-1/2 md:relative md:grayscale md:hover:grayscale-0"
-                      src={FeatureImg01}
+                      src={GrillImg}
                       width="504"
                       height="400"
                       alt="A charcoal grill with flames"
@@ -97,7 +97,7 @@ export default function LandingSummary() {
                   <div className="relative h-64 w-full overflow-hidden md:h-auto md:pb-8">
                     <Image
                       className="absolute bottom-0 left-1/2 mx-auto max-w-none -translate-x-1/2 md:relative md:left-0 md:max-w-full md:translate-x-0 md:grayscale md:hover:grayscale-0"
-                      src={FeatureImg02}
+                      src={ChartImg}
                       width={536}
                       height={230}
                       alt="A decorative graph showing growth"
@@ -128,7 +128,7 @@ export default function LandingSummary() {
                   <div className="relative h-64 w-full overflow-hidden md:h-auto md:p-4">
                     <Image
                       className="absolute bottom-0 left-1/2 mx-auto max-w-none -translate-x-1/2 md:relative md:left-0 md:max-w-full md:translate-x-0 md:grayscale md:hover:grayscale-0"
-                      src={FeatureImg03}
+                      src={TeamImg}
                       width={285}
                       height={285}
                       alt="A graphic showing avatars of Ambreen, Rebekah, and Sam, the team behind RoastMy.xyz"
