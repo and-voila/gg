@@ -31,7 +31,7 @@ export default function CommunityCta() {
                   <div className="p-8 sm:p-10 lg:flex-auto">
                     <H5
                       as="h2"
-                      className="text-2xl font-bold tracking-tight text-foreground"
+                      className="font-display text-2xl tracking-tight text-foreground"
                     >
                       Become a founding member of And Voila
                     </H5>

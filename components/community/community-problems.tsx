@@ -13,7 +13,7 @@ const problems: Problem[] = [
   {
     title: 'AI unveiled',
     description:
-      'Uncertain about using AI in your marketing strategy? We demystify it with clear, actionable guidance.',
+      'Confused about integrating AI? We simplify it with step-by-step, actionable advice.',
   },
   {
     title: 'Real-time updates',
@@ -28,22 +28,22 @@ const problems: Problem[] = [
   {
     title: 'Evergreen learning',
     description:
-      'Feel like your skills are stagnating? Our community offers adaptive, continuous learning.',
+      'Feel like your skills are starting to rust? Our community fosters ongoing, adaptive learning.',
   },
   {
-    title: 'Sifting through noise',
+    title: 'Kondo the clutter',
     description:
-      'Bombarded by marketing trends? We distill the essence, delivering insights you can act upon.',
+      'Overwhelmed by trends and buzzwords? We sift through the noise to deliver insights that matter.',
   },
   {
     title: 'Community support',
     description:
-      'Need more than articles? Get holistic solutions from industry experts and peers.',
+      'Need more than just articles? Get well-rounded solutions from seasoned experts and community peers.',
   },
   {
     title: 'Streamlined productivity',
     description:
-      'Lost in task management? We offer focused strategies to optimize your workflow.',
+      "Drowning in tasks? We'll show you focused strategies to optimize your workflow.",
   },
   {
     title: 'Building confidence',
@@ -51,9 +51,14 @@ const problems: Problem[] = [
       'Second-guessing your decisions? Gain the skills and support to act decisively.',
   },
   {
-    title: 'Career advancement',
+    title: 'Future-proof skills',
     description:
-      'Stuck in your career? We provide connections and insights to elevate your professional standing.',
+      'Concerned about keeping up with rapid industry changes? We offer foresight on emerging trends to keep you ahead of the curve.',
+  },
+  {
+    title: 'Climb the ladder',
+    description:
+      'Stuck in your career? We provide the network and know-how to boost your professional growth.',
   },
 ];
 
@@ -62,8 +67,8 @@ const CommunityProblems: FC = () => {
     <div className="mx-auto py-24 sm:py-32">
       <SectionIntro
         eyebrow="Time for Transformation?"
-        heading="Elevate Your Marketing Game"
-        description="Feeling lost in the maze of outdated tactics and mediocre results? We're the guiding light in the labyrinth of digital marketing."
+        heading="Escape the labyrinth"
+        description="Feeling stuck with outdated tactics and lackluster results? We're your north star in the complex world of digital marketing."
       />
       <FadeInStagger className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
         <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -72,7 +77,7 @@ const CommunityProblems: FC = () => {
               key={problem.title}
               className="flex flex-col rounded-lg bg-primary-foreground p-6"
             >
-              <div className="font-display text-base text-foreground lg:text-lg">
+              <div className="font-display text-lg text-foreground lg:text-xl">
                 <div className="mb-6 flex h-10 w-10 items-center justify-center rounded bg-background">
                   <LightningBoltIcon
                     className="h-6 w-6 text-brand"

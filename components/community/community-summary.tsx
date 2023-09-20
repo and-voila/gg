@@ -14,7 +14,7 @@ const features: Feature[] = [
   {
     name: 'Immediate insights',
     description:
-      "Lost in the labyrinth of digital marketing? Gain immediate access to mavens who’ve deciphered the enigmas you're facing.",
+      "Lost in the maze of digital marketing? Get immediate access to pros who've overcome the same kind of puzzles you're facing.",
   },
   {
     name: 'Curated expertise',
@@ -24,22 +24,22 @@ const features: Feature[] = [
   {
     name: 'Metrics that matter',
     description:
-      'Quit navigating by the stars. We provide actionable metrics and KPIs that align with your marketing goals, enhancing your ROI and efficiency.',
+      'Stop guessing and start measuring. We offer actionable metrics and KPIs for dazzling ROI and efficiency.',
   },
   {
     name: 'AI deconstructed',
     description:
-      'Understand the role of AI in your digital marketing journey. We translate the arcane into advice you can act upon immediately.',
+      'Understand the role of AI in your digital marketing journey. We break down the complexities into advice you can act on immediately.',
   },
   {
     name: 'Real-time revelations',
     description:
-      'Stay ahead with timely digests that distill the latest magical tools, techniques, and paradigm shifts in the digital marketing universe.',
+      'Stay in the know with timely digests that highlight the latest magical tools, techniques, and key shifts in the digital marketing landscape.',
   },
   {
     name: 'Community compassion',
     description:
-      'Your marketing challenges find solace here. Post your dilemmas and receive a variety of solutions that can turn your strategies enchanting.',
+      'Your marketing challenges meet solutions here. Post your issues and get spellbinding solutions.',
   },
 ];
 
@@ -51,7 +51,7 @@ const CommunitySummary: FC = () => {
         heading="Enchanting connections await"
         level="h3"
         as="h2"
-        description="And Voila isn't your ordinary Discord server; it's a crucible for digital marketing wizardry. Discover secrets from industry experts, build meaningful connections, and elevate your campaigns to the extraordinary. Join us and transform your marketing into a realm of wonder."
+        description="And Voila isn't just another Discord server. It's your gateway to digital marketing nirvana. Uncover expert secrets, build valuable connections, and convert your campaigns from ordinary to extra. Join us for actionable insights, real-world examples, and magical results."
       />
       <FadeIn className="relative overflow-hidden pt-16">
         <Image

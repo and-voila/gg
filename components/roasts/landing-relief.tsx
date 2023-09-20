@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 
 import { FadeIn } from '../fade-in';
 import SectionIntro from '../section-intro';
-import { H6 } from '../typography';
+import { H4 } from '../typography';
 import { buttonVariants } from '../ui/button';
 import {
   Card,
@@ -78,7 +78,7 @@ const LandingRelief: React.FC<CardProps> = () => {
               <div className="relative z-20 overflow-hidden rounded-[inherit] bg-primary-foreground">
                 <Card className="flex flex-col border-0 bg-primary-foreground">
                   <CardHeader className="gap-4">
-                    <H6 as="h3">{card.title}</H6>
+                    <H4 as="h3">{card.title}</H4>
                     <CardDescription className="text-lg text-muted-foreground">
                       {card.description}
                     </CardDescription>

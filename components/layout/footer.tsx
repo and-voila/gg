@@ -35,7 +35,10 @@ const navigation: Navigation = {
     { name: 'Unlimited', href: '/unlimited' },
   ],
   support: [
-    { name: 'Discord', href: '#' },
+    {
+      name: 'Discord',
+      href: 'https://discord.com/servers/and-voila-1151749282806910976',
+    },
     { name: 'FAQ', href: '/faq' },
     { name: 'Contact', href: '/contact' },
   ],
@@ -55,7 +58,7 @@ const navigation: Navigation = {
   social: [
     {
       name: 'Discord',
-      href: '/',
+      href: 'https://discord.com/servers/and-voila-1151749282806910976',
       icon: DiscordLogoIcon,
     },
     {

@@ -18,7 +18,7 @@ export default function OpenCart({
       />
 
       {quantity ? (
-        <div className="absolute right-0 top-0 -mr-2 -mt-2 flex h-4 w-4 items-center justify-center rounded bg-foreground text-center text-[11px] font-bold text-background">
+        <div className="absolute right-0 top-0 -mr-2 -mt-2 flex h-4 w-4 items-center justify-center rounded bg-foreground text-center font-display text-[11px] text-background">
           {quantity}
         </div>
       ) : null}

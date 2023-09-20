@@ -37,13 +37,13 @@ export default function LandingCta() {
                         )}
                         aria-label="Get roasted and improve your marketing campaigns"
                       >
-                        Get roasted{' '}
+                        Start shining{' '}
                         <span
                           role="img"
-                          aria-label="Fire emoji"
+                          aria-label="Sparkle emoji"
                           aria-hidden="true"
                         >
-                          🔥
+                          ✨
                         </span>
                       </Link>
                     </div>

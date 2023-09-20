@@ -23,26 +23,26 @@ const reasons: Reason[] = [
   {
     name: 'Direct access to experts',
     description:
-      'Get personalized Q/A sessions, weekly masterclasses, and one-on-one consultations with industry leaders like Rebekah Radice.',
+      'Enjoy personalized Q&A sessions, weekly masterclasses, and one-on-one consultations with industry leaders like Rebekah Radice.',
     href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <StarIcon className="h-8 w-8" />,
-    cta: 'Unlock Access',
+    cta: 'Unlock Advice',
   },
   {
-    name: 'Tools for tangible results',
+    name: 'Tools that get results',
     description:
-      "From conversions to cache, our full-stack marketing mods got you covered. We'll help you reach new levels of spectacular.",
+      "From conversions to cache, our expert marketing mods have you covered. We'll help you get to a whole new level of spectacular.",
     href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <RocketIcon className="h-8 w-8" />,
-    cta: 'Achieve Results',
+    cta: 'Boost Results',
   },
   {
-    name: 'Join a dynamic community',
+    name: 'Join a growing community',
     description:
-      'Gain feedback, share achievements, or even find your next opportunity. Collaborate, network, and grow with a community from the ground up.',
+      'Share insights, celebrate wins, and even find your next opportunity. Connect and grow in a community built from the ground up.',
     href: 'https://discord.com/servers/and-voila-1151749282806910976',
     icon: <DiscordLogoIcon className="h-8 w-8" />,
-    cta: 'Become a Member',
+    cta: 'Start celebrating',
   },
 ];
 
@@ -57,7 +57,7 @@ const CommunityIntro: FC = () => {
                 <SectionIntro
                   eyebrow="Premier Marketing Community"
                   heading="Your path to exceptional results"
-                  description="Unlock unparalleled marketing potential with the definitive digital marketing server on Discord. Created by Rebekah Radice, get immediate access to top-tier resources, insights, and most importantly, action."
+                  description="Join the definitive Discord server for marketers, led by Rebekah Radice. Get immediate access to top-tier resources, insights, and most importantly, action."
                 />
 
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

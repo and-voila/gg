@@ -20,7 +20,7 @@ const people: Person[] = [
     name: 'Ambreen Dar',
     role: 'Co-Founder / Design',
     imageUrl: '/images/team/ambreen-dar.png',
-    bio: 'From academia to industry, my passion for design has guided me through the intricacies of digital marketing. As a co-founder of BRIL.LA, I focus on harmonizing creative design with strategic goals. Also, a dedicated dog mom.',
+    bio: "From classrooms to boardrooms, my love for design has guided me through the digital marketing maze. As a co-founder at BRIL.LA, I blend art with strategy for results that delight. Also, I'm a devoted dog mom to four adorable fur babies.",
     twitterUrl: 'https://twitter.com/breenzy',
     linkedinUrl: 'https://www.linkedin.com/in/ambreen-dar-b3bb006/',
   },
@@ -28,7 +28,7 @@ const people: Person[] = [
     name: 'Rebekah Radice',
     role: 'Co-Founder / Sales & Marketing',
     imageUrl: '/images/team/rebekah-radice-hair.png',
-    bio: "With two decades in global branding, I've honed a knack for turning insights into action. At BRIL.LA, I leverage this experience to provide you with strategies that matter. Off the clock, I enjoy polishing my culinary skills with Italian cuisine.",
+    bio: 'Two decades in global branding have equipped me with the skills to turn insights into impact. At BRIL.LA, I leverage this experience to provide you with actionable strategies that matter. Off the clock, I hone my culinary skills with Italian cuisine.',
     twitterUrl: 'https://twitter.com/RebekahRadice',
     linkedinUrl: 'https://www.linkedin.com/in/rebekahradice/',
   },
@@ -36,7 +36,7 @@ const people: Person[] = [
     name: 'Sam Rizvi',
     role: 'Consulting Technologist',
     imageUrl: '/images/team/sam-rizvi.png',
-    bio: 'After 25 years in consulting and tech, I opted for retirement. Then my wife Ambreen and our bestie Rebekah roped me back in. I specialize in bringing your imagination to life. Big on beer, basketball, tacos, and my dogs.',
+    bio: "After 25 years in consulting and tech, retirement was on the horizon. Until my wife, Ambreen, and our bestie Rebekah roped me back in. I'm your go-to for turning visions into reality. Big on beer, basketball, tacos, and, of course, my dogs.",
     twitterUrl: 'https://twitter.com/izvirs',
     linkedinUrl: 'https://www.linkedin.com/in/rizvio/',
   },
@@ -50,10 +50,10 @@ const CommunityTeam: FC = () => {
           Meet the mods
         </GradientHeading>
         <p className="mt-6 text-base text-muted-foreground lg:max-w-sm lg:text-lg">
-          We&apos;re more than just a team, we&apos;re your catalysts in the
-          complex world of digital marketing. Leveraging years of hands-on
-          experience, we provide actionable insights to empower your strategies.
-          Ready for a transformative marketing journey?
+          We&apos;re more than allies, we&apos;re your catalysts in the
+          ever-changing landscape of digital marketing. With decades of hands-on
+          experience, we offer insights that turn your strategies into
+          game-changers. Ready to transform your marketing journey?
         </p>
       </FadeIn>
       <FadeInStagger className="-mt-6 space-y-12 divide-y divide-brand/70 xl:col-span-3">
@@ -63,7 +63,7 @@ const CommunityTeam: FC = () => {
             className="flex flex-col gap-10 pt-12 sm:flex-row"
           >
             <Image
-              className="aspect-[4/5] w-52 flex-none rounded-2xl border bg-white object-contain dark:bg-primary-foreground md:grayscale md:hover:grayscale-0"
+              className="aspect-[4/5] w-52 flex-none rounded-2xl bg-white object-contain dark:bg-primary-foreground md:grayscale md:hover:grayscale-0"
               src={person.imageUrl}
               alt=""
               width={208}

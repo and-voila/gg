@@ -67,7 +67,7 @@ export default async function SearchPage({
           {products.length === 0
             ? 'There are no products that match '
             : `Showing ${products.length} ${resultsText} for `}
-          <span className="font-bold">&quot;{searchValue}&quot;</span>
+          <span className="font-display">&quot;{searchValue}&quot;</span>
         </p>
       ) : null}
       {products.length > 0 ? (
