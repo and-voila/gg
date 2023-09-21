@@ -32,7 +32,7 @@ const CommunityHero: FC = () => {
               heading="Magical marketing"
               level="h2"
               as="h1"
-              description="Scoop up early access to mingle with mods Rebekah Radice and her full-stack crew. Then, watch your campaigns go magical. We're the no-fluff, all-wow, premium Discord hub for digital marketing professionals."
+              description="Scoop up early access and mingle with mods Rebekah Radice and her full-stack crew. Watch your campaigns go magical with game-changing strategies. We're your go-to premium Discord hub for marketing zen—no fluff, all wow."
             />
           </div>
           <div className="mt-10 flex items-center gap-x-6">
@@ -43,7 +43,7 @@ const CommunityHero: FC = () => {
               className={cn(buttonVariants({ variant: 'custom', size: 'lg' }))}
               aria-label="Join the Sizzle Squad premium Discord server for digital marketing professionals"
             >
-              Join now
+              Join the magic
               <div className="ml-2">
                 <span
                   role="img"

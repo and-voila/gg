@@ -52,7 +52,7 @@ export function AddToCart({
         });
       }}
       className={clsx(
-        'relative flex w-full items-center justify-center rounded-xl bg-muted-foreground p-4 font-bold uppercase tracking-wide text-primary-foreground hover:opacity-90',
+        'relative flex w-full items-center justify-center rounded-xl bg-muted-foreground p-4 font-display uppercase tracking-wide text-primary-foreground hover:opacity-90',
         {
           'cursor-not-allowed opacity-60 hover:opacity-60':
             !availableForSale || !selectedVariantId,

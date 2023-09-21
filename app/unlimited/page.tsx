@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 
+import { Container } from '@/components/container';
 import Unlimited from '@/components/unlimited/unlimited';
 import { SITE_URL } from '@/lib/utils';
 
@@ -47,8 +48,8 @@ export function generateMetadata(): Metadata {
 
 export default async function UnlimitedPage() {
   return (
-    <div className="overflow-hidden">
+    <Container>
       <Unlimited />
-    </div>
+    </Container>
   );
 }

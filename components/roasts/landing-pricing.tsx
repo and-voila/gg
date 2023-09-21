@@ -103,7 +103,7 @@ export default function LandingPricing() {
               <span
                 className={classNames(
                   tier.featured ? 'text-foreground' : 'text-muted-foreground',
-                  'text-5xl font-bold tracking-tight',
+                  'font-display text-5xl tracking-tight',
                 )}
               >
                 {tier.priceMonthly}

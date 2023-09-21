@@ -236,7 +236,7 @@ export default function Unlimited() {
           description="Whether you're just dipping your toes or ready to dive into the deep end, we have a membership tier designed to fuel your marketing endeavors."
         />
         <div className="flow-root py-16 lg:pb-0">
-          <FadeInStagger className="mx-auto max-w-7xl px-6 lg:px-8">
+          <FadeInStagger className="mx-auto">
             <FadeIn className="relative mx-auto mt-10 grid max-w-md grid-cols-1 gap-y-8 lg:mx-0 lg:-mb-14 lg:max-w-none lg:grid-cols-3">
               {pricing.tiers.map((tier) => (
                 <Card
@@ -333,7 +333,7 @@ export default function Unlimited() {
           </FadeInStagger>
         </div>
         <FadeIn className="relative lg:pt-14">
-          <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+          <div className="mx-auto py-24 sm:py-32">
             {/* Feature comparison (up to lg) */}
             <section
               aria-labelledby="mobile-comparison-heading"

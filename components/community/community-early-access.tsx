@@ -11,49 +11,54 @@ interface Feature {
 
 const features: Feature[] = [
   {
+    name: 'Get early access',
+    description:
+      'Earn exclusive benefits from the get-go—first dibs on new features, members-only masterclasses, and a touch of behind-the-scenes hilarity.',
+  },
+  {
     name: 'Founding membership',
     description:
-      'Secure your place among the first 500 to enter this exclusive community. Be a pathfinder in a world tailored to solve your marketing enigmas.',
+      'Join the first 500 members and carve your path in a community focused on solving your marketing puzzles.',
   },
   {
     name: 'Fixed membership rate',
     description:
-      'Take advantage of our early bird rate at $7.99/month, shielded from future price hikes. It’s your lifetime ticket to value.',
+      "Take advantage of our $7.99/month early-bird rate, protected from future price increases. It's your lifetime ticket to unmatched value.",
   },
   {
     name: 'Unique Discord perks',
     description:
-      'Stand out with special badges and roles in our Discord server. Think of it as your VIP pass to digital recognition.',
+      "Stand out with special badges and roles on our Discord server. It's your VIP pass to digital recognition.",
   },
   {
     name: 'Insider influence',
     description:
-      'Participate in the growth of AndVoila.gg. Your ideas and feedback will help shape the community’s destiny.',
+      "Your ideas and feedback aren't just welcome—they'll help define the future of AndVoila.gg.",
   },
   {
     name: 'First-to-know privileges',
     description:
-      'Receive exclusive invites to launch events and masterclasses. Be in the know before the crowd.',
+      'Stay ahead of the curve with exclusive invites to launch events and masterclasses.',
   },
   {
-    name: 'Behind-the-scenes glimpses',
+    name: 'Backstage glimpses',
     description:
-      'Get an unfiltered view of our journey, including the inevitable hiccups. We make the mistakes so you don’t have to.',
+      "Get an unfiltered look at our journey, bumps and all. We make all the mistakes so you don't have to.",
   },
   {
-    name: 'Active role in community growth',
+    name: 'Influence our growth',
     description:
-      'Your insights will contribute directly to our evolving feature set and community offerings.',
+      'Your insights will directly shape our evolving feature set and community offerings.',
   },
   {
     name: 'Beta access',
     description:
-      'Test new tools and features before they hit the mainstream. Your feedback will refine our innovations.',
+      'Be the first to test new tools and features before they hit the mainstream. Your feedback will refine our innovations.',
   },
   {
     name: 'Resource advantage',
     description:
-      'Begin your journey with a curated selection of premium marketing resources. A leg up, the magical way.',
+      'Kick off your journey with a hand-picked selection of premium marketing resources. Get a leg up, the magical way.',
   },
 ];
 
@@ -66,7 +71,7 @@ const CommunityEarlyAccess: FC = () => {
           heading="Get early access"
           level="h4"
           as="h2"
-          description="You'll get a full range of exclusive perks. From first dibs on new features to member-only masterclasses and a dash of behind-the-scenes hilarity."
+          description="Earn exclusive benefits from the get-go—first dibs on new features, members-only masterclasses, and a touch of behind-the-scenes hilarity."
         />
         <FadeInStagger className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base text-muted-foreground sm:grid-cols-2 lg:gap-y-16">
           {features.map((feature) => (

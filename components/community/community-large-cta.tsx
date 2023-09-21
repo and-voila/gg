@@ -20,12 +20,12 @@ const CommunityLargeCta: FC = () => {
             </GradientHeading>
             <p className="mt-6 text-lg text-muted-foreground">
               Ever felt like you&apos;re navigating a maze without a guide?
-              Tired of mediocre results in a field that demands excellence?
+              Tired of mediocre results when excellence is the expectation?
             </p>
             <p className="mt-6 text-base text-muted-foreground">
-              We offer the insights and community you&apos;ve been searching
-              for, with actionable advice that makes a tangible difference. No
-              more aimless wandering. Click below to begin your journey toward
+              We&apos;ve got the insights and the community you&apos;ve been
+              missing. Get actionable advice that moves the needle. No more
+              chasing your tail. Click below and set yourself on the path to
               marketing enlightenment.
             </p>
             <div className="mt-10 flex">
