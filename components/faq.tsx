@@ -20,16 +20,16 @@ const FaqComponent: React.FC<FaqComponentProps> = ({ faqs }) => {
       <FadeIn>
         <GradientHeading level="h2">Frequently asked questions</GradientHeading>
         <p className="mt-6 max-w-2xl text-base text-muted-foreground lg:text-lg">
-          Have a different question and can’t find the answer you’re looking
-          for? Reach out to our support team by{' '}
+          Have a question that&apos;s not covered here? No problem, reach out
+          via our Contact page or just{' '}
           <Link
             href="/contact"
             className="font-medium text-brand hover:underline hover:underline-offset-4"
             aria-label="Contact us"
           >
-            sending us an email
+            send us an email
           </Link>{' '}
-          and we’ll get back to you as soon as we can.
+          and we’ll get back to you.
         </p>
       </FadeIn>
       <div className="mt-20">
