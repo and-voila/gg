@@ -1,4 +1,4 @@
-# RoastMy.xyz: Ignite Your Marketing Game 🔥
+# And Voila on Discord 🔥
 
 ## Introduction
 
