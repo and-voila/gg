@@ -10,6 +10,31 @@ import MobileMenu from './mobile-menu';
 import Search from './search';
 
 export default async function Navbar() {
+  return (
+    <nav className="relative flex items-center justify-between p-4 lg:px-6">
+      <div className="block flex-none md:hidden">
+        <MobileMenu />
+      </div>
+      <div className="flex w-full items-center">
+        <div className="flex w-full md:w-1/3">
+          <Link
+            href="/"
+            aria-label="Home"
+            className="mr-2 flex w-full items-center justify-center md:w-auto lg:mr-6"
+          >
+            <Logomark className="h-10 sm:hidden" />
+            <Logo
+              className="ml-2 hidden h-10 flex-none pb-2 font-display text-lg sm:block md:hidden lg:block"
+              fillOnHover
+            />
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
+export async function ShopNavbar() {
   const menu = await getMenu('next-js-frontend-header-menu');
 
   return (
