@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import ChartImg from '@/public/images/roasts/chart.png';
 import GrillImg from '@/public/images/roasts/grill.png';
-import TeamImg from '@/public/images/roasts/team.png';
+import TeamImg from '@/public/images/roasts/team-brilla.png';
 
 import { FadeIn } from '../fade-in';
 import { GradientHeading } from '../gradient-headings';
