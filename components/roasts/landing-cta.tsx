@@ -20,7 +20,7 @@ export default function LandingCta() {
                 <div className="mx-auto flex flex-col space-y-8 space-y-reverse md:max-w-none md:flex-row md:space-x-8 md:space-y-0 lg:space-x-16 xl:space-x-20">
                   <div className="order-1 max-md:text-center md:order-none md:w-7/12 lg:w-1/2">
                     <div>
-                      <GradientHeading level="h4" as="h2">
+                      <GradientHeading level="h3" as="h2">
                         Ready to light it up?
                       </GradientHeading>
                     </div>
@@ -55,7 +55,7 @@ export default function LandingCta() {
                           <svg
                             role="img"
                             aria-label="Pulse animation"
-                            className="pointer-events-none absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform opacity-70 blur-md will-change-transform"
+                            className="pointer-events-none absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform blur-md will-change-transform"
                             width="480"
                             height="480"
                             viewBox="0 0 480 480"
@@ -69,9 +69,9 @@ export default function LandingCta() {
                                 y1="100%"
                                 y2="0%"
                               >
-                                <stop offset="0%" stopColor="#7f5af0" />
+                                <stop offset="0%" stopColor="#521fea" />
                                 <stop offset="76.382%" stopColor="#2cb67d" />
-                                <stop offset="100%" stopColor="#521fea" />
+                                <stop offset="100%" stopColor="#6847C2" />
                               </linearGradient>
                             </defs>
                             <g fillRule="evenodd">
