@@ -1,4 +1,4 @@
-import '../styles/base.css';
+import '@/styles/base.css';
 
 import Navbar from 'components/layout/navbar';
 import { ThemeProvider } from 'components/theme-provider';
@@ -9,13 +9,13 @@ import { ReactNode } from 'react';
 import Footer from '@/components/layout/footer';
 
 const monaSans = localFont({
-  src: './fonts/mona-sans.woff2',
+  src: '../fonts/mona-sans.woff2',
   display: 'swap',
   variable: '--font-mona-sans',
 });
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const calSans = localFont({
-  src: './fonts/cal-sans.woff2',
+  src: '../fonts/cal-sans.woff2',
   display: 'swap',
   variable: '--font-cal-sans',
 });

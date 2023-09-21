@@ -9,7 +9,7 @@ export default function Error({ reset }: { reset: () => void }) {
         marketing strategies sometimes need a tweak or two. Try a do over?
       </p>
       <button
-        className="mx-auto mt-4 flex w-full items-center justify-center rounded-xl bg-muted-foreground p-4 tracking-wide text-foreground hover:opacity-90"
+        className="mx-auto mt-4 flex w-full items-center justify-center rounded-xl bg-brand p-4 font-semibold tracking-wide text-white hover:opacity-90"
         onClick={() => reset()}
       >
         Try Again
