@@ -67,7 +67,7 @@ export default function CartModal({ cart }: { cart: Cart | undefined }) {
           >
             <Dialog.Panel className="fixed bottom-0 right-0 top-0 flex h-full w-full flex-col border-l border-border bg-primary-foreground/80 p-6 text-foreground backdrop-blur-xl md:w-[390px]">
               <div className="flex items-center justify-between">
-                <p className="text-lg font-semibold">My Cart</p>
+                <p className="font-display text-lg">My Cart</p>
 
                 <button aria-label="Close cart" onClick={closeCart}>
                   <CloseCart />
@@ -194,7 +194,7 @@ export default function CartModal({ cart }: { cart: Cart | undefined }) {
                   </div>
                   <a
                     href={cart.checkoutUrl}
-                    className="block w-full rounded-xl bg-muted-foreground p-3 text-center font-display text-sm uppercase tracking-wide text-primary-foreground opacity-90 hover:opacity-100"
+                    className="block w-full rounded-xl bg-brand p-3 text-center font-display text-sm uppercase tracking-wide text-white opacity-90 hover:opacity-100"
                   >
                     Proceed to Checkout
                   </a>

@@ -15,7 +15,7 @@ export function ProductDescription({ product }: { product: Product }) {
             {product.title}
           </GradientHeading>
         </div>
-        <div className="mr-auto w-auto rounded-xl bg-muted-foreground p-2 text-sm font-medium text-primary-foreground md:px-4 md:py-2">
+        <div className="mr-auto w-auto rounded-xl bg-brand p-2 text-base font-semibold text-white md:px-4 md:py-2">
           <Price
             amount={product.priceRange.maxVariantPrice.amount}
             currencyCode={product.priceRange.maxVariantPrice.currencyCode}

@@ -18,7 +18,7 @@ const FaqComponent: React.FC<FaqComponentProps> = ({ faqs }) => {
   return (
     <div className="mx-auto py-16 sm:py-24">
       <FadeIn>
-        <GradientHeading level="h2">Frequently Asked Questions</GradientHeading>
+        <GradientHeading level="h2">Frequently asked questions</GradientHeading>
         <p className="mt-6 max-w-2xl text-base text-muted-foreground lg:text-lg">
           Have a different question and can’t find the answer you’re looking
           for? Reach out to our support team by{' '}
