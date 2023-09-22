@@ -1,7 +1,7 @@
 import { SortFilterItem } from 'lib/constants';
 
-import FilterItemDropdown from './dropdown';
-import { FilterItem } from './item';
+import FilterItemDropdown from '@/components/layout/search/filter/dropdown';
+import { FilterItem } from '@/components/layout/search/filter/item';
 
 export type ListItem = SortFilterItem | PathFilterItem;
 export type PathFilterItem = { title: string; path: string };

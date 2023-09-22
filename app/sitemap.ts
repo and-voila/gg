@@ -1,5 +1,6 @@
-import { getCollections, getPages, getProducts } from 'lib/shopify';
 import { MetadataRoute } from 'next';
+
+import { getCollections, getPages, getProducts } from '@/lib/shopify';
 
 type Route = {
   url: string;

@@ -1,8 +1,8 @@
 import { LightningBoltIcon } from '@radix-ui/react-icons';
 import { FC } from 'react';
 
-import { FadeIn, FadeInStagger } from '../fade-in';
-import SectionIntro from '../section-intro';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import SectionIntro from '@/components/section-intro';
 
 interface Problem {
   title: string;

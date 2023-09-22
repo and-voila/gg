@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import { FC, ReactElement } from 'react';
 
+import AffiliatesHeroBackground from '@/components/affiliates/affiliates-hero-background';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import PageIntro from '@/components/page-intro';
+import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
-import { FadeIn, FadeInStagger } from '../fade-in';
-import PageIntro from '../page-intro';
-import { buttonVariants } from '../ui/button';
-import AffiliatesHeroBackground from './affiliates-hero-background';
 
 const AffiliatesHero: FC = (): ReactElement => {
   return (

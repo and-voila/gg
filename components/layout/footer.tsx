@@ -6,10 +6,11 @@ import {
   PlayIcon,
 } from '@radix-ui/react-icons';
 import { IconProps } from '@radix-ui/react-icons/dist/types';
-import { Logo, Logomark } from 'components/logo-square';
-import { ModeToggle } from 'components/mode-toggle';
 import Link from 'next/link';
 import { JSX, SVGProps } from 'react';
+
+import { Logo, Logomark } from '@/components/logo-square';
+import { ModeToggle } from '@/components/mode-toggle';
 
 const { COMPANY_NAME, SITE_NAME } = process.env;
 

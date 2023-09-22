@@ -1,12 +1,12 @@
 import '@/styles/base.css';
 
-import Navbar from 'components/layout/navbar';
-import { ThemeProvider } from 'components/theme-provider';
-import { ensureStartsWith } from 'lib/utils';
 import localFont from 'next/font/local';
 import { ReactNode } from 'react';
 
 import Footer from '@/components/layout/footer';
+import Navbar from '@/components/layout/navbar';
+import { ThemeProvider } from '@/components/theme-provider';
+import { ensureStartsWith } from '@/lib/utils';
 
 const monaSans = localFont({
   src: '../fonts/mona-sans.woff2',
