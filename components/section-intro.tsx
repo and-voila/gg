@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
 
-import { FadeIn } from './fade-in';
-import { GradientHeading } from './gradient-headings';
+import { FadeIn } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
 
 interface SectionIntroProps {
   centered?: boolean;

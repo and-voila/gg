@@ -14,10 +14,7 @@ export function Container({
 }: ContainerProps) {
   return (
     <Component
-      className={clsx(
-        'mx-auto max-w-7xl overflow-hidden px-6 lg:px-8 xl:px-10',
-        className,
-      )}
+      className={clsx('mx-auto max-w-7xl px-6 lg:px-8 xl:px-10', className)}
     >
       <div className="mx-auto max-w-2xl lg:max-w-none">{children}</div>
     </Component>

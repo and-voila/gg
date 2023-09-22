@@ -1,20 +1,19 @@
 import { CrumpledPaperIcon, MixIcon, RocketIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
-import { cn } from '@/lib/utils';
-
-import { FadeIn } from '../fade-in';
-import SectionIntro from '../section-intro';
-import { H4 } from '../typography';
-import { buttonVariants } from '../ui/button';
+import { FadeIn } from '@/components/fade-in';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
+import SectionIntro from '@/components/section-intro';
+import { H4 } from '@/components/typography';
+import { buttonVariants } from '@/components/ui/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
-} from '../ui/card';
-import Highlighter, { HighlighterItem } from './highlighter';
+} from '@/components/ui/card';
+import { cn } from '@/lib/utils';
 
 type CardData = {
   title: string;

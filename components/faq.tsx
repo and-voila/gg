@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 
-import { FadeIn, FadeInStagger } from './fade-in';
-import { GradientHeading } from './gradient-headings';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
 
 export interface Faq {
   id: number;

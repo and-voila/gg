@@ -20,9 +20,10 @@ import React, { useEffect, useState } from 'react';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 
-import { FadeIn } from '../fade-in';
-import Particles from '../particles';
-import SectionIntro from '../section-intro';
+import { FadeIn } from '@/components/fade-in';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
+import Particles from '@/components/particles';
+import SectionIntro from '@/components/section-intro';
 import {
   Card,
   CardContent,
@@ -30,8 +31,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '../ui/card';
-import Highlighter, { HighlighterItem } from './highlighter';
+} from '@/components/ui/card';
 Swiper.use([Navigation]);
 
 interface CarouselItem {

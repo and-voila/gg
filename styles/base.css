@@ -6,17 +6,17 @@
 --black: hsla(0, 0%, 0%, 1);
 --night: hsla(240, 8%, 9%, 1);
 --raisin-black: hsla(216, 6%, 15%, 1);
---gray: hsla(225, 5%, 47%, 1);
+--dim-gray: hsla(228, 5%, 40%, 1);
 --cadet-gray: hsla(214, 16%, 64%, 1);
---antiflash-white: hsla(0, 0%, 92%, 1);
---white-smoke: hsla(0, 0%, 96%, 1);
---white: hsla(60, 100%, 100%, 1);
+--french-gray: hsla(217, 16%, 84%, 1);
+--platinum: hsla(220, 15%, 88%, 1);
+--antiflash-white: hsla(210, 20%, 92%, 1);
 --mint: hsla(155, 61%, 44%, 1);
---electric-indigo: hsla(255, 83%, 56%, 1);
+--iris: hsla(256, 50%, 52%, 1);
 */
 
 /* And Voila GG Dark
---black: hsla(0, 0%, 0%, 1);
+--black: hsla(0, 0%, 0%, 1); 
 --night: hsla(240, 8%, 9%, 1);
 --raisin-black: hsla(216, 6%, 15%, 1);
 --gray: hsla(225, 5%, 47%, 1);

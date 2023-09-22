@@ -1,9 +1,9 @@
 import { CheckIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
-import { FadeIn } from '../fade-in';
-import { GradientHeading } from '../gradient-headings';
-import { Button } from '../ui/button';
+import { FadeIn } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
+import { Button } from '@/components/ui/button';
 
 interface Tier {
   name: string;

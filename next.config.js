@@ -17,10 +17,6 @@ module.exports = withContentlayer({
         hostname: 'cdn.shopify.com',
         pathname: '/s/files/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
     ],
   },
   async redirects() {

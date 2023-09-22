@@ -1,11 +1,12 @@
 'use client';
 
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
-import { GridTileImage } from 'components/grid/tile';
-import { createUrl } from 'lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
+
+import { GridTileImage } from '@/components/grid/tile';
+import { createUrl } from '@/lib/utils';
 
 export function Gallery({
   images,

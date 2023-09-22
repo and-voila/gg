@@ -2,12 +2,11 @@
 
 import Link from 'next/link';
 
+import { FadeIn } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
+import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
-import { FadeIn } from '../fade-in';
-import { GradientHeading } from '../gradient-headings';
-import { buttonVariants } from '../ui/button';
-import Highlighter, { HighlighterItem } from './highlighter';
 
 export default function LandingCta() {
   return (

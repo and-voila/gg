@@ -6,8 +6,8 @@ import {
 import Image from 'next/image';
 import { FC } from 'react';
 
-import { FadeIn } from '../fade-in';
-import SectionIntro from '../section-intro';
+import { FadeIn } from '@/components/fade-in';
+import SectionIntro from '@/components/section-intro';
 
 interface Item {
   name: string;

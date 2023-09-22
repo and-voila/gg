@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import { FC } from 'react';
 
+import { FadeIn } from '@/components/fade-in';
+import PageIntro from '@/components/page-intro';
+import Particles from '@/components/particles';
+import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
-import { FadeIn } from '../fade-in';
-import PageIntro from '../page-intro';
-import Particles from '../particles';
-import { buttonVariants } from '../ui/button';
 
 const LandingHero: FC = () => {
   return (

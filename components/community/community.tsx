@@ -2,7 +2,7 @@ import { CheckIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
 import { FadeIn } from '@/components/fade-in';
-import Highlighter, { HighlighterItem } from '@/components/roasts/highlighter';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
 import { H5 } from '@/components/typography';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
