@@ -1,8 +1,8 @@
-import { Carousel } from 'components/carousel';
-import { ThreeItemGrid } from 'components/grid/three-items';
 import { Metadata } from 'next';
 import { Suspense } from 'react';
 
+import { Carousel } from '@/components/carousel';
+import { ThreeItemGrid } from '@/components/grid/three-items';
 import { SITE_URL } from '@/lib/utils';
 
 export const runtime = 'edge';

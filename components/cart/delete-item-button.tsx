@@ -1,10 +1,11 @@
 import { Cross2Icon } from '@radix-ui/react-icons';
 import clsx from 'clsx';
-import { removeItem } from 'components/cart/actions';
-import LoadingDots from 'components/loading-dots';
-import type { CartItem } from 'lib/shopify/types';
 import { useRouter } from 'next/navigation';
 import { useTransition } from 'react';
+
+import { removeItem } from '@/components/cart/actions';
+import LoadingDots from '@/components/loading-dots';
+import type { CartItem } from '@/lib/shopify/types';
 
 export default function DeleteItemButton({ item }: { item: CartItem }) {
   const router = useRouter();

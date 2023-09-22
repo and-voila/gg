@@ -1,14 +1,13 @@
 import { CheckIcon, Cross2Icon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import FaqComponent from '@/components/faq';
+import PageIntro from '@/components/page-intro';
+import { buttonVariants } from '@/components/ui/button';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { unlimitedFaqs } from '@/components/unlimited/unlimited-faq-data';
 import { cn } from '@/lib/utils';
-
-import { FadeIn, FadeInStagger } from '../fade-in';
-import FaqComponent from '../faq';
-import PageIntro from '../page-intro';
-import { buttonVariants } from '../ui/button';
-import { Card, CardContent, CardHeader } from '../ui/card';
-import { unlimitedFaqs } from './unlimited-faq-data';
 
 interface Tier {
   name: string;
@@ -243,7 +242,7 @@ export default function Unlimited() {
                   key={tier.id}
                   className={classNames(
                     tier.featured
-                      ? 'z-10 scale-105 bg-secondary shadow-xl ring-1 ring-border'
+                      ? 'z-10 scale-105 bg-primary-foreground shadow-xl ring-1 ring-border'
                       : 'bg-background ring-1 ring-border lg:pb-14 lg:ring-0',
                     'relative mt-10 rounded-2xl',
                   )}

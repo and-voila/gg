@@ -1,10 +1,9 @@
-import { AddToCart } from 'components/cart/add-to-cart';
-import Price from 'components/price';
-import Prose from 'components/prose';
-import { Product } from 'lib/shopify/types';
-
-import { GradientHeading } from '../gradient-headings';
-import { VariantSelector } from './variant-selector';
+import { AddToCart } from '@/components/cart/add-to-cart';
+import { GradientHeading } from '@/components/gradient-headings';
+import Price from '@/components/price';
+import { VariantSelector } from '@/components/product/variant-selector';
+import Prose from '@/components/prose';
+import { Product } from '@/lib/shopify/types';
 
 export function ProductDescription({ product }: { product: Product }) {
   return (

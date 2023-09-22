@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 
-import MousePosition from '../utils/mouse-position';
+import MousePosition from '@/components/utils/mouse-position';
 
 type HighlighterProps = {
   children: React.ReactNode;

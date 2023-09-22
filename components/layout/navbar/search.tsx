@@ -1,18 +1,13 @@
 'use client';
 
 import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
-import { createUrl } from 'lib/utils';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+
+import { createUrl } from '@/lib/utils';
 
 export default function Search() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [searchValue, setSearchValue] = useState('');
-
-  useEffect(() => {
-    setSearchValue(searchParams?.get('q') || '');
-  }, [searchParams, setSearchValue]);
 
   function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -40,8 +35,7 @@ export default function Search() {
         name="search"
         placeholder="Search for a roast..."
         autoComplete="off"
-        value={searchValue}
-        onChange={(e) => setSearchValue(e.target.value)}
+        defaultValue={searchParams?.get('q') || ''}
         className="w-full rounded-lg border bg-primary-foreground px-4 py-2 text-xs text-foreground placeholder:text-muted-foreground md:text-sm"
       />
       <div className="absolute right-0 top-0 mr-3 flex h-full items-center">

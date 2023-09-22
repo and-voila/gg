@@ -3,11 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
 
+import { FadeIn } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
+import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
-import { FadeIn } from '../fade-in';
-import { GradientHeading } from '../gradient-headings';
-import { buttonVariants } from '../ui/button';
 
 const CommunityLargeCta: FC = () => {
   return (

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Image from 'next/image';
 
-import Label from '../label';
+import Label from '@/components/label';
 
 export function GridTileImage({
   isInteractive = true,

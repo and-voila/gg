@@ -4,8 +4,8 @@ import { ChevronDownIcon } from '@radix-ui/react-icons';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
-import type { ListItem } from '.';
-import { FilterItem } from './item';
+import type { ListItem } from '@/components/layout/search/filter/index';
+import { FilterItem } from '@/components/layout/search/filter/item';
 
 export default function FilterItemDropdown({ list }: { list: ListItem[] }) {
   const pathname = usePathname();

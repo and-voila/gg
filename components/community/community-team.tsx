@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
 
-import { FadeIn, FadeInStagger } from '../fade-in';
-import { GradientHeading } from '../gradient-headings';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
 
 interface Person {
   name: string;

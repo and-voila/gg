@@ -1,10 +1,11 @@
 import { MinusIcon, PlusIcon } from '@radix-ui/react-icons';
 import clsx from 'clsx';
-import { removeItem, updateItemQuantity } from 'components/cart/actions';
-import LoadingDots from 'components/loading-dots';
-import type { CartItem } from 'lib/shopify/types';
 import { useRouter } from 'next/navigation';
 import { useTransition } from 'react';
+
+import { removeItem, updateItemQuantity } from '@/components/cart/actions';
+import LoadingDots from '@/components/loading-dots';
+import type { CartItem } from '@/lib/shopify/types';
 
 export default function EditItemQuantityButton({
   item,

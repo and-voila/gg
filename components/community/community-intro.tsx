@@ -7,9 +7,9 @@ import {
 import Link from 'next/link';
 import React, { FC } from 'react';
 
-import { FadeIn } from '../fade-in';
-import Highlighter, { HighlighterItem } from '../roasts/highlighter';
-import SectionIntro from '../section-intro';
+import { FadeIn } from '@/components/fade-in';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
+import SectionIntro from '@/components/section-intro';
 
 interface Reason {
   name: string;

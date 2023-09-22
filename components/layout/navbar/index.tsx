@@ -1,13 +1,13 @@
-import Cart from 'components/cart';
-import OpenCart from 'components/cart/open-cart';
-import { Logo, Logomark } from 'components/logo-square';
-import { getMenu } from 'lib/shopify';
-import { Menu } from 'lib/shopify/types';
 import Link from 'next/link';
 import { Suspense } from 'react';
 
-import MobileMenu from './mobile-menu';
-import Search from './search';
+import Cart from '@/components/cart';
+import OpenCart from '@/components/cart/open-cart';
+import MobileMenu from '@/components/layout/navbar/mobile-menu';
+import Search from '@/components/layout/navbar/search';
+import { Logo, Logomark } from '@/components/logo-square';
+import { getMenu } from '@/lib/shopify';
+import { Menu } from '@/lib/shopify/types';
 
 export default async function Navbar() {
   return (

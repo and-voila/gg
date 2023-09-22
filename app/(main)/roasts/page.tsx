@@ -1,15 +1,15 @@
 import { Container } from '@/components/container';
-import LandingCarousel from '@/components/roasts/landing-carousel';
-import LandingClients from '@/components/roasts/landing-clients';
-import Collections from '@/components/roasts/landing-collections';
-import LandingCommunity from '@/components/roasts/landing-community';
-import LandingCta from '@/components/roasts/landing-cta';
-import LandingHero from '@/components/roasts/landing-hero';
-import LandingHowItWorks from '@/components/roasts/landing-how-it-works';
-import LandingIdentity from '@/components/roasts/landing-identity';
-import LandingProgress from '@/components/roasts/landing-progress';
-import LandingRelief from '@/components/roasts/landing-relief';
-import LandingSummary from '@/components/roasts/landing-summary';
+import LandingCarousel from '@/components/roasts/roasts-carousel';
+import LandingClients from '@/components/roasts/roasts-clients';
+import Collections from '@/components/roasts/roasts-collections';
+import LandingCommunity from '@/components/roasts/roasts-community';
+import LandingCta from '@/components/roasts/roasts-cta';
+import LandingHero from '@/components/roasts/roasts-hero';
+import LandingHowItWorks from '@/components/roasts/roasts-how-it-works';
+import LandingIdentity from '@/components/roasts/roasts-identity';
+import LandingProgress from '@/components/roasts/roasts-progress';
+import LandingRelief from '@/components/roasts/roasts-relief';
+import LandingSummary from '@/components/roasts/roasts-summary';
 
 export const metadata = {
   description:

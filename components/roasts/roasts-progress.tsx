@@ -8,8 +8,8 @@ import {
 } from '@radix-ui/react-icons';
 import { FC } from 'react';
 
-import { FadeIn, FadeInStagger } from '../fade-in';
-import { GradientHeading } from '../gradient-headings';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import { GradientHeading } from '@/components/gradient-headings';
 
 const LandingProgress: FC = () => {
   return (

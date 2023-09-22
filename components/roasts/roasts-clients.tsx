@@ -1,15 +1,15 @@
-import { FadeIn, FadeInStagger } from '../fade-in';
-import SectionIntro from '../section-intro';
-import AdobeLogo from './clients/adobe-logo';
-import AirbnbLogo from './clients/airbnb-logo';
-import AmazonLogo from './clients/amazon-logo';
-import AnimotoLogo from './clients/animoto-logo';
-import BetterHomesLogo from './clients/better-homes-logo';
-import CanvaLogo from './clients/canva-logo';
-import FacebookLogo from './clients/facebook-logo';
-import HootsuiteLogo from './clients/hootsuite-logo';
-import MotorolaLogo from './clients/motorola-logo';
-import Highlighter, { HighlighterItem } from './highlighter';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import Highlighter, { HighlighterItem } from '@/components/highlighter';
+import AdobeLogo from '@/components/roasts/clients/adobe-logo';
+import AirbnbLogo from '@/components/roasts/clients/airbnb-logo';
+import AmazonLogo from '@/components/roasts/clients/amazon-logo';
+import AnimotoLogo from '@/components/roasts/clients/animoto-logo';
+import BetterHomesLogo from '@/components/roasts/clients/better-homes-logo';
+import CanvaLogo from '@/components/roasts/clients/canva-logo';
+import FacebookLogo from '@/components/roasts/clients/facebook-logo';
+import HootsuiteLogo from '@/components/roasts/clients/hootsuite-logo';
+import MotorolaLogo from '@/components/roasts/clients/motorola-logo';
+import SectionIntro from '@/components/section-intro';
 
 const clientLogos = [
   { Logo: AdobeLogo, ariaLabel: 'Adobe' },

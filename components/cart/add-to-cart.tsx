@@ -2,11 +2,12 @@
 
 import { PlusIcon } from '@radix-ui/react-icons';
 import clsx from 'clsx';
-import { addItem } from 'components/cart/actions';
-import LoadingDots from 'components/loading-dots';
-import { ProductVariant } from 'lib/shopify/types';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useTransition } from 'react';
+
+import { addItem } from '@/components/cart/actions';
+import LoadingDots from '@/components/loading-dots';
+import { ProductVariant } from '@/lib/shopify/types';
 
 export function AddToCart({
   variants,

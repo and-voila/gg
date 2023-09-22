@@ -2,8 +2,8 @@ import { CheckIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
 import { FC } from 'react';
 
-import { FadeIn, FadeInStagger } from '../fade-in';
-import SectionIntro from '../section-intro';
+import { FadeIn, FadeInStagger } from '@/components/fade-in';
+import SectionIntro from '@/components/section-intro';
 
 const LandingCommunity: FC = () => {
   return (
