@@ -11,7 +11,7 @@ export const runtime = 'edge';
 export function generateMetadata(): Metadata {
   const title = 'Search Roasts';
   const description =
-    'Search for the roast you need the most. We help marketers supercharge their digital marketing. 🔥';
+    "Our roasts will help you achieve your marketing goals and improve ROI. We'll perform a comprehensive audit of your artifacts and give you a play-by-play plan.";
 
   const url = `${SITE_URL}/search`;
 
@@ -19,6 +19,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: {
+      type: 'website',
       title,
       description,
       images: [

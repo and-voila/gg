@@ -78,6 +78,7 @@ export async function generateMetadata({
     title: seoTitle,
     description: seoMetaDescription,
     openGraph: {
+      type: 'article',
       title: seoTitle,
       description: seoMetaDescription,
       url: postUrl,
