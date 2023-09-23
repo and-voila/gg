@@ -39,7 +39,7 @@ const LandingClients = () => {
           <FadeInStagger key={index}>
             <FadeIn>
               <HighlighterItem>
-                <div className="relative z-20 overflow-hidden rounded-[inherit] bg-primary-foreground p-8 sm:p-10">
+                <div className="relative z-20 overflow-hidden rounded-[inherit] bg-primary-foreground p-8 md:p-10">
                   <Logo
                     className="mx-auto"
                     aria-label={`A logo for ${ariaLabel}, a former client of Rebekah Radice and or the BRIL.LA team.`}

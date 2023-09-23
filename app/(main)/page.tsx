@@ -14,9 +14,9 @@ import FaqComponent from '@/components/faq';
 import { SITE_URL } from '@/lib/utils';
 
 export function generateMetadata(): Metadata {
-  const title = 'And Voila Discord';
+  const title = 'Digital Marketing Community';
   const description =
-    'Join the best digital marketing Discord server for professionals. Created by Rebekah Radice to add some magic to your marketing performance. 🔥';
+    'Want to up your marketing game? Join And Voila, a premium digital marketing community on Discord by Rebekah Radice. Get direct access to experts and crush it.';
 
   const url = `${SITE_URL}/`;
 
@@ -24,6 +24,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: {
+      type: 'website',
       title,
       description,
       images: [

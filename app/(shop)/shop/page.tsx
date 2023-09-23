@@ -18,6 +18,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: {
+      type: 'website',
       title,
       description,
       images: [

@@ -11,7 +11,7 @@ import { SITE_URL, formatDate } from '@/lib/utils';
 export const runtime = 'edge';
 
 export function generateMetadata(): Metadata {
-  const title = 'RoastMy.xyz Blog';
+  const title = 'Blog';
   const description =
     "Looking for some magic for your marketing? You're in the right place. The And Voila blog serves up epic insights. Want more? Join our premium Discord server.";
 
@@ -21,6 +21,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: {
+      type: 'website',
       title,
       description,
       images: [

@@ -7,9 +7,9 @@ import { SITE_URL } from '@/lib/utils';
 export const runtime = 'edge';
 
 export function generateMetadata(): Metadata {
-  const title = 'Unlimited Design Build';
+  const title = 'Unlimited Design';
   const description =
-    'What would you do with a world-class, award-winning, full-stack marketing team on your side? Get started to find out with an unlimited package from And Voila.';
+    'What could you achieve if an award-winning digital marketing agency had your back? Get an unlimited package from And Voila today and get the results you need.';
 
   const url = `${SITE_URL}/unlimited`;
 
@@ -17,6 +17,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: {
+      type: 'website',
       title,
       description,
       images: [

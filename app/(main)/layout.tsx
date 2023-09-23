@@ -38,7 +38,7 @@ export const metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
+    'Want to up your marketing game? Join And Voila, a premium digital marketing community on Discord by Rebekah Radice. Get direct access to experts and crush it.',
   keywords: [
     'Exclusive Digital Marketing Community',
     'Digital Marketing Community',
@@ -50,7 +50,7 @@ export const metadata = {
     type: 'website',
     title: SITE_NAME!,
     description:
-      'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
+      'Want to up your marketing game? Join And Voila, a premium digital marketing community on Discord by Rebekah Radice. Get direct access to experts and crush it.',
     images: [
       {
         url: '/open-graph.gif',
@@ -71,7 +71,7 @@ export const metadata = {
       twitter: {
         title: SITE_NAME!,
         description:
-          'Looking for the best digital marketing community to join? And Voila is a premium Discord server. Connect with real experts and watch your results soar. 🪄 🔮',
+          'Want to up your marketing game? Join And Voila, a premium digital marketing community on Discord by Rebekah Radice. Get direct access to experts and crush it.',
         card: 'summary_large_image',
         creator: twitterCreator,
         site: twitterSite,
