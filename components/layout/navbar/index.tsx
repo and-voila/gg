@@ -1,3 +1,4 @@
+import { DiscordLogoIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 import { Suspense } from 'react';
 
@@ -16,7 +17,7 @@ export default async function Navbar() {
         <MobileMenu />
       </div>
       <div className="flex w-full items-center">
-        <div className="flex w-full md:w-1/3">
+        <div className="flex w-full">
           <Link
             href="/"
             aria-label="Home"
@@ -27,6 +28,16 @@ export default async function Navbar() {
               className="ml-2 hidden h-10 flex-none pb-2 font-display text-lg sm:block md:hidden lg:block"
               fillOnHover
             />
+          </Link>
+        </div>
+        <div className="flex justify-end">
+          <Link
+            href="https://discord.com/servers/and-voila-1151749282806910976"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Navigate to And Voila Discord Community"
+          >
+            <DiscordLogoIcon className="h-8 w-8 text-brand" />
           </Link>
         </div>
       </div>
