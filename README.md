@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository is now part of the **[And Voila Community](https://github.com/and-voila/community)** Turborepo.
+
 # And Voila on Discord 🔥
 
 ## Introduction
